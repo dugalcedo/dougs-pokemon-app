@@ -1,0 +1,19 @@
+.field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+    align-items: start;
+    margin-bottom: .5rem;
+    position: relative;
+
+    & .error {
+        background-color: var(--poke-red);
+        color: white;
+        position: absolute;
+        right: 0;
+        bottom: 100%;
+        padding: 0 .3rem;
+        font-style: italic;
+        font-size: .8rem;
+    }
+}

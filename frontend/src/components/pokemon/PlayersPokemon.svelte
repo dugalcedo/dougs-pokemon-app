@@ -1,0 +1,46 @@
+<script lang="ts">
+    import { player } from "../../lib/state/player.svelte.js";
+    import PokemonImage from "./PokemonImage.svelte";
+    import PokemonMeter from "./PokemonMeter.svelte";
+</script>
+
+{#if player.pokemon.length === 0}
+    ...
+{:else}
+    <div class="players-pokemon">
+        {#each player.pokemon as p}
+            <div class="pokemon">
+                <PokemonImage {p} crop="small" />
+                <div class="info1">
+                    <h4 class="name">{p.name}</h4>
+                    <div class="stat">
+                        <strong>LVL:</strong>
+                        {p.level}
+                    </div>
+                </div>
+                <div class="info2">
+                    <PokemonMeter label="HP" val={p.hp} max={1} color="red" />
+                    <PokemonMeter label="EXP" val={p.exp} max={1} color="red" />
+                </div>
+            </div>
+        {/each}
+    </div>
+{/if}
+
+<style>
+    .pokemon {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    .info1 {
+        background-color: lightgray;
+        padding: 0 .5rem;
+        border-radius: 4px;
+    }
+
+    .info2 {
+        flex-grow: 1;
+    }
+</style>

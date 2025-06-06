@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Fredoka;
+    src: url("/fonts/Fredoka.ttf");
+}
+
+@font-face {
+    font-family: Slackey;
+    src: url("/fonts/Slackey.ttf");
+}
+
+
+:root {
+    --poke-red: #a81e1e;
+    --poke-black: #1d1d1d;
+    --poke-gray: #e4e4e4;
+    --poke-gray-2: #d3d3d3;
+}
+
+h1, h2 {
+    font-family: Slackey;
+}
+
+body, button, input, select, option, textarea {
+    font-family: Fredoka;
+    font-size: 1rem;
+}
