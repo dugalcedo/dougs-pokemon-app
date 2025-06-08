@@ -7,3 +7,10 @@
 <div id="screen">
     <Screen />
 </div>
+
+<style>
+    #screen {
+        height: 100%;
+        overflow-y: hidden;
+    }
+</style>

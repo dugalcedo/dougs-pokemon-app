@@ -2,6 +2,7 @@ import { RequestHandler } from "express"
 import { Player, PlayerPokemon } from "../models/_models.ts"
 import jwt from 'jsonwebtoken'
 import env from "../util/env.ts"
+import fs from 'fs'
 
 export const checkToken: RequestHandler = async (req, _res, next) => {
     console.log("Checking token...")
@@ -63,6 +64,14 @@ export const checkToken: RequestHandler = async (req, _res, next) => {
         // get player pokemon
         const playerPokemon = await PlayerPokemon.findAll({ where: { playerId: req.user!.id } })
         req.user!.pokemon = playerPokemon.map(pp => pp.dataValues)
+
+        // get player region encounters
+        if (req.user!.region) {
+            req.user!.regionEncounters = JSON.parse(fs.readFileSync('cache/encounters.json', 'utf-8'))[req.user!.region]
+            req.user!.regionEncounters?.locations.sort((a, b) => {
+                return a.avgLvl - b.avgLvl
+            })
+        }
 
         next()
 

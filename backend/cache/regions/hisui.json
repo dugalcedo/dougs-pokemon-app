@@ -1,0 +1,1785 @@
+{
+  "name": "hisui",
+  "locations": [
+    {
+      "name": "aipom-hill",
+      "areas": {
+        "name": "aipom-hill",
+        "id": 952,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "aipom-hill-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ancient-quarry",
+      "areas": {
+        "name": "ancient-quarry",
+        "id": 953,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "ancient-quarry-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "arenas-approach",
+      "areas": {
+        "name": "arenas-approach",
+        "id": 954,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "arenas-approach-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "aspiration-hill",
+      "areas": {
+        "name": "aspiration-hill",
+        "id": 955,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "aspiration-hill-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "avalanche-slopes",
+      "areas": {
+        "name": "avalanche-slopes",
+        "id": 956,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "avalanche-slopes-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "avaluggs-legacy",
+      "areas": {
+        "name": "avaluggs-legacy",
+        "id": 957,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "avaluggs-legacy-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "bathers-lagoon",
+      "areas": {
+        "name": "bathers-lagoon",
+        "id": 958,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "bathers-lagoon-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "bolderoll-ravine",
+      "areas": {
+        "name": "bolderoll-ravine",
+        "id": 959,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "bolderoll-ravine-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "bolderoll-slope",
+      "areas": {
+        "name": "bolderoll-slope",
+        "id": 960,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "bolderoll-slope-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "bonechill-wastes",
+      "areas": {
+        "name": "bonechill-wastes",
+        "id": 961,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "bonechill-wastes-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "brava-arena",
+      "areas": {
+        "name": "brava-arena",
+        "id": 962,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "brava-arena-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "castaway-shore",
+      "areas": {
+        "name": "castaway-shore",
+        "id": 963,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "castaway-shore-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "celestica-ruins",
+      "areas": {
+        "name": "celestica-ruins",
+        "id": 964,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "celestica-ruins-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "celestica-trail",
+      "areas": {
+        "name": "celestica-trail",
+        "id": 965,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "celestica-trail-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "clamberclaw-cliffs",
+      "areas": {
+        "name": "clamberclaw-cliffs",
+        "id": 966,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "clamberclaw-cliffs-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "cloudcap-pass",
+      "areas": {
+        "name": "cloudcap-pass",
+        "id": 967,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "cloudcap-pass-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "cloudpool-ridge",
+      "areas": {
+        "name": "cloudpool-ridge",
+        "id": 968,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "cloudpool-ridge-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "coastlands-camp",
+      "areas": {
+        "name": "coastlands-camp",
+        "id": 969,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "coastlands-camp-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "cottonsedge-prairie",
+      "areas": {
+        "name": "cottonsedge-prairie",
+        "id": 970,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "cottonsedge-prairie-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "crossing-slope",
+      "areas": {
+        "name": "crossing-slope",
+        "id": 971,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "crossing-slope-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "deadwood-haunt",
+      "areas": {
+        "name": "deadwood-haunt",
+        "id": 972,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "deadwood-haunt-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "deertrack-heights",
+      "areas": {
+        "name": "deertrack-heights",
+        "id": 973,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "deertrack-heights-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "deertrack-path",
+      "areas": {
+        "name": "deertrack-path",
+        "id": 974,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "deertrack-path-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "diamond-heath",
+      "areas": {
+        "name": "diamond-heath",
+        "id": 975,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "diamond-heath-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "diamond-settlement",
+      "areas": {
+        "name": "diamond-settlement",
+        "id": 976,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "diamond-settlement-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "droning-meadow",
+      "areas": {
+        "name": "droning-meadow",
+        "id": 977,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "droning-meadow-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "fabled-spring",
+      "areas": {
+        "name": "fabled-spring",
+        "id": 978,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "fabled-spring-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "firespit-island",
+      "areas": {
+        "name": "firespit-island",
+        "id": 979,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "firespit-island-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "floaro-gardens",
+      "areas": {
+        "name": "floaro-gardens",
+        "id": 980,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "floaro-gardens-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "gapejaw-bog",
+      "areas": {
+        "name": "gapejaw-bog",
+        "id": 981,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "gapejaw-bog-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ginkgo-landing",
+      "areas": {
+        "name": "ginkgo-landing",
+        "id": 982,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "ginkgo-landing-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "glacier-terrace",
+      "areas": {
+        "name": "glacier-terrace",
+        "id": 983,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "glacier-terrace-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "golden-lowlands",
+      "areas": {
+        "name": "golden-lowlands",
+        "id": 984,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "golden-lowlands-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "grandtree-arena",
+      "areas": {
+        "name": "grandtree-arena",
+        "id": 985,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "grandtree-arena-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "grueling-grove",
+      "areas": {
+        "name": "grueling-grove",
+        "id": 986,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "grueling-grove-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hearts-crag",
+      "areas": {
+        "name": "hearts-crag",
+        "id": 987,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "hearts-crag-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "heavenward-lookout",
+      "areas": {
+        "name": "heavenward-lookout",
+        "id": 988,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "heavenward-lookout-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "heights-camp",
+      "areas": {
+        "name": "heights-camp",
+        "id": 989,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "heights-camp-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hideaway-bay",
+      "areas": {
+        "name": "hideaway-bay",
+        "id": 990,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "hideaway-bay-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "holm-of-trials",
+      "areas": {
+        "name": "holm-of-trials",
+        "id": 991,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "holm-of-trials-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "horseshoe-plains",
+      "areas": {
+        "name": "horseshoe-plains",
+        "id": 992,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "horseshoe-plains-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ice-column-chamber",
+      "areas": {
+        "name": "ice-column-chamber",
+        "id": 993,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "ice-column-chamber-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "icebound-falls",
+      "areas": {
+        "name": "icebound-falls",
+        "id": 994,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "icebound-falls-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "icepeak-arena",
+      "areas": {
+        "name": "icepeak-arena",
+        "id": 995,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "icepeak-arena-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "icepeak-cavern",
+      "areas": {
+        "name": "icepeak-cavern",
+        "id": 996,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "icepeak-cavern-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "islespy-shore",
+      "areas": {
+        "name": "islespy-shore",
+        "id": 997,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "islespy-shore-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "jubilife-village",
+      "areas": {
+        "name": "jubilife-village",
+        "id": 998,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "jubilife-village-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hisui-lake-acuity",
+      "areas": {
+        "name": "hisui-lake-acuity",
+        "id": 999,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "hisui-lake-acuity-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hisui-lake-valor",
+      "areas": {
+        "name": "hisui-lake-valor",
+        "id": 1000,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "hisui-lake-valor-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hisui-lake-verity",
+      "areas": {
+        "name": "hisui-lake-verity",
+        "id": 1001,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "hisui-lake-verity-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "lonely-spring",
+      "areas": {
+        "name": "lonely-spring",
+        "id": 1002,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "lonely-spring-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "lunkers-lair",
+      "areas": {
+        "name": "lunkers-lair",
+        "id": 1003,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "lunkers-lair-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "molten-arena",
+      "areas": {
+        "name": "molten-arena",
+        "id": 1004,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "molten-arena-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "moonview-arena",
+      "areas": {
+        "name": "moonview-arena",
+        "id": 1005,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "moonview-arena-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "natures-pantry",
+      "areas": {
+        "name": "natures-pantry",
+        "id": 1006,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "natures-pantry-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "obsidian-falls",
+      "areas": {
+        "name": "obsidian-falls",
+        "id": 1007,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "obsidian-falls-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "oreburrow-tunnel",
+      "areas": {
+        "name": "oreburrow-tunnel",
+        "id": 1008,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "oreburrow-tunnel-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "pearl-settlement",
+      "areas": {
+        "name": "pearl-settlement",
+        "id": 1009,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "pearl-settlement-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "primeval-grotto",
+      "areas": {
+        "name": "primeval-grotto",
+        "id": 1010,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "primeval-grotto-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ramanas-island",
+      "areas": {
+        "name": "ramanas-island",
+        "id": 1011,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "ramanas-island-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "sacred-plaza",
+      "areas": {
+        "name": "sacred-plaza",
+        "id": 1012,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "sacred-plaza-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "sands-reach",
+      "areas": {
+        "name": "sands-reach",
+        "id": 1013,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "sands-reach-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "sandgem-flats",
+      "areas": {
+        "name": "sandgem-flats",
+        "id": 1014,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "sandgem-flats-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "scarlet-bog",
+      "areas": {
+        "name": "scarlet-bog",
+        "id": 1015,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "scarlet-bog-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "seagrass-haven",
+      "areas": {
+        "name": "seagrass-haven",
+        "id": 1016,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "seagrass-haven-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "seaside-hollow",
+      "areas": {
+        "name": "seaside-hollow",
+        "id": 1017,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "seaside-hollow-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "shrouded-ruins",
+      "areas": {
+        "name": "shrouded-ruins",
+        "id": 1018,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "shrouded-ruins-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "sludge-mound",
+      "areas": {
+        "name": "sludge-mound",
+        "id": 1019,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "sludge-mound-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "snowfall-hot-spring",
+      "areas": {
+        "name": "snowfall-hot-spring",
+        "id": 1020,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "snowfall-hot-spring-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hisui-snowpoint-temple",
+      "areas": {
+        "name": "hisui-snowpoint-temple",
+        "id": 1021,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "hisui-snowpoint-temple-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hisui-solaceon-ruins",
+      "areas": {
+        "name": "hisui-solaceon-ruins",
+        "id": 1022,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "hisui-solaceon-ruins-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "sonorous-path",
+      "areas": {
+        "name": "sonorous-path",
+        "id": 1023,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "sonorous-path-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "space-time-distortion",
+      "areas": {
+        "name": "space-time-distortion",
+        "id": 1024,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "space-time-distortion-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hisui-spring-path",
+      "areas": {
+        "name": "hisui-spring-path",
+        "id": 1025,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "hisui-spring-path-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "stonetooth-rows",
+      "areas": {
+        "name": "stonetooth-rows",
+        "id": 1026,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "stonetooth-rows-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "temple-of-sinnoh",
+      "areas": {
+        "name": "temple-of-sinnoh",
+        "id": 1027,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "temple-of-sinnoh-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "the-heartwood",
+      "areas": {
+        "name": "the-heartwood",
+        "id": 1028,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "the-heartwood-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "tidewater-dam",
+      "areas": {
+        "name": "tidewater-dam",
+        "id": 1029,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "tidewater-dam-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "tombolo-walk",
+      "areas": {
+        "name": "tombolo-walk",
+        "id": 1030,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "tombolo-walk-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "tranquility-cove",
+      "areas": {
+        "name": "tranquility-cove",
+        "id": 1031,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "tranquility-cove-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hisui-turnback-cave",
+      "areas": {
+        "name": "hisui-turnback-cave",
+        "id": 1032,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "hisui-turnback-cave-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ursas-ring",
+      "areas": {
+        "name": "ursas-ring",
+        "id": 1033,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "ursas-ring-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "veilstone-cape",
+      "areas": {
+        "name": "veilstone-cape",
+        "id": 1034,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "veilstone-cape-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hisui-wayward-cave",
+      "areas": {
+        "name": "hisui-wayward-cave",
+        "id": 1035,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "hisui-wayward-cave-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "wayward-wood",
+      "areas": {
+        "name": "wayward-wood",
+        "id": 1036,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "wayward-wood-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "whiteout-valley",
+      "areas": {
+        "name": "whiteout-valley",
+        "id": 1037,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "whiteout-valley-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "windbreak-stand",
+      "areas": {
+        "name": "windbreak-stand",
+        "id": 1038,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "windbreak-stand-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "windswept-run",
+      "areas": {
+        "name": "windswept-run",
+        "id": 1039,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "windswept-run-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "worn-bridge",
+      "areas": {
+        "name": "worn-bridge",
+        "id": 1040,
+        "region": {
+          "name": "hisui",
+          "url": "https://pokeapi.co/api/v2/region/9/"
+        },
+        "areas": [
+          {
+            "name": "worn-bridge-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    }
+  ]
+}

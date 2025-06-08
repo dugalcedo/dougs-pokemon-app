@@ -1,5 +1,5 @@
 export const API_ROOT = "http://localhost:6392"
-import { type Pokemon } from "./pokemonTypes.js"
+import { type Pokemon, type RegionEncounters } from "./pokemonTypes.js"
 
 export type PlayerData = {
     id: number
@@ -7,6 +7,7 @@ export type PlayerData = {
     password: string
     hasStarted: boolean
     region: string
+    regionEncounters: RegionEncounters
 }
 
 export const pokeAPIFetch = (path: string) => {

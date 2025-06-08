@@ -11,6 +11,6 @@
     "allowImportingTsExtensions": true,
     "noEmit": true
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "src/scripts/encounterWheels.js"],
   "files": ["./types.d.ts"]
 }

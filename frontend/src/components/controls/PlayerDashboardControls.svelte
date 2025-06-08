@@ -13,7 +13,7 @@
             Pick region
         </Control>
     {:else}
-        <Control>
+        <Control screen="overworld" controls="overworld">
             Overworld
         </Control>
     {/if}

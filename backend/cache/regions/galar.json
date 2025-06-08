@@ -1,0 +1,1795 @@
+{
+  "name": "galar",
+  "locations": [
+    {
+      "name": "galar-route-1",
+      "areas": {
+        "name": "galar-route-1",
+        "id": 868,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-route-1-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-route-2",
+      "areas": {
+        "name": "galar-route-2",
+        "id": 869,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-route-2-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-route-3",
+      "areas": {
+        "name": "galar-route-3",
+        "id": 870,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-route-3-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "galar-route-3-garbage",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-route-4",
+      "areas": {
+        "name": "galar-route-4",
+        "id": 871,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-route-4-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-route-5",
+      "areas": {
+        "name": "galar-route-5",
+        "id": 872,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-route-5-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-route-6",
+      "areas": {
+        "name": "galar-route-6",
+        "id": 873,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-route-6-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-route-7",
+      "areas": {
+        "name": "galar-route-7",
+        "id": 874,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-route-7-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-route-8",
+      "areas": {
+        "name": "galar-route-8",
+        "id": 875,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-route-8-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "galar-route-8-steamdrift-way",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-route-9",
+      "areas": {
+        "name": "galar-route-9",
+        "id": 876,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-route-9-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "galar-route-9-circhester-bay",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "galar-route-9-outer-spikemouth",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-route-10",
+      "areas": {
+        "name": "galar-route-10",
+        "id": 877,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-route-10-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "galar-route-10-near-station",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "axews-eye",
+      "areas": {
+        "name": "axews-eye",
+        "id": 878,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "axews-eye-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ballimere-lake",
+      "areas": {
+        "name": "ballimere-lake",
+        "id": 879,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "ballimere-lake-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ballonlea",
+      "areas": {
+        "name": "ballonlea",
+        "id": 880,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "ballonlea-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "battle-tower",
+      "areas": {
+        "name": "battle-tower",
+        "id": 881,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "battle-tower-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "brawlers-cave",
+      "areas": {
+        "name": "brawlers-cave",
+        "id": 882,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "brawlers-cave-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "bridge-field",
+      "areas": {
+        "name": "bridge-field",
+        "id": 883,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "bridge-field-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "challenge-beach",
+      "areas": {
+        "name": "challenge-beach",
+        "id": 884,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "challenge-beach-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "challenge-beach-ocean",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "challenge-beach-river",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "challenge-beach-beach",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "challenge-road",
+      "areas": {
+        "name": "challenge-road",
+        "id": 885,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "challenge-road-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "circhester",
+      "areas": {
+        "name": "circhester",
+        "id": 886,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "circhester-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "courageous-cavern",
+      "areas": {
+        "name": "courageous-cavern",
+        "id": 887,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "courageous-cavern-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "crown-shrine",
+      "areas": {
+        "name": "crown-shrine",
+        "id": 888,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "crown-shrine-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "dappled-grove",
+      "areas": {
+        "name": "dappled-grove",
+        "id": 889,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "dappled-grove-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "dusty-bowl",
+      "areas": {
+        "name": "dusty-bowl",
+        "id": 890,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "dusty-bowl-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "dyna-tree-hill",
+      "areas": {
+        "name": "dyna-tree-hill",
+        "id": 891,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "dyna-tree-hill-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "east-lake-axewell",
+      "areas": {
+        "name": "east-lake-axewell",
+        "id": 892,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "east-lake-axewell-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "fields-of-honor",
+      "areas": {
+        "name": "fields-of-honor",
+        "id": 893,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "fields-of-honor-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "fields-of-honor-beach",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "forest-of-focus",
+      "areas": {
+        "name": "forest-of-focus",
+        "id": 894,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "forest-of-focus-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "freezington",
+      "areas": {
+        "name": "freezington",
+        "id": 895,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "freezington-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "frigid-sea",
+      "areas": {
+        "name": "frigid-sea",
+        "id": 896,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "frigid-sea-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "frostpoint-field",
+      "areas": {
+        "name": "frostpoint-field",
+        "id": 897,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "frostpoint-field-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-mine",
+      "areas": {
+        "name": "galar-mine",
+        "id": 898,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-mine-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-mine-no-2",
+      "areas": {
+        "name": "galar-mine-no-2",
+        "id": 899,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-mine-no-2-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "giants-bed",
+      "areas": {
+        "name": "giants-bed",
+        "id": 900,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "giants-bed-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "giants-foot",
+      "areas": {
+        "name": "giants-foot",
+        "id": 901,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "giants-foot-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "giants-mirror",
+      "areas": {
+        "name": "giants-mirror",
+        "id": 902,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "giants-mirror-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "giants-seat",
+      "areas": {
+        "name": "giants-seat",
+        "id": 903,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "giants-seat-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "glimwood-tangle",
+      "areas": {
+        "name": "glimwood-tangle",
+        "id": 904,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "glimwood-tangle-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hammerlocke",
+      "areas": {
+        "name": "hammerlocke",
+        "id": 905,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "hammerlocke-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hammerlocke-hills",
+      "areas": {
+        "name": "hammerlocke-hills",
+        "id": 906,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "hammerlocke-hills-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "honeycalm-island",
+      "areas": {
+        "name": "honeycalm-island",
+        "id": 907,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "honeycalm-island-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "honeycalm-sea",
+      "areas": {
+        "name": "honeycalm-sea",
+        "id": 908,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "honeycalm-sea-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "hulbury",
+      "areas": {
+        "name": "hulbury",
+        "id": 909,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "hulbury-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-iceberg-ruins",
+      "areas": {
+        "name": "galar-iceberg-ruins",
+        "id": 910,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-iceberg-ruins-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "insular-sea",
+      "areas": {
+        "name": "insular-sea",
+        "id": 911,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "insular-sea-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-iron-ruins",
+      "areas": {
+        "name": "galar-iron-ruins",
+        "id": 912,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-iron-ruins-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "lake-of-outrage",
+      "areas": {
+        "name": "lake-of-outrage",
+        "id": 913,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "lake-of-outrage-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "lakeside-cave",
+      "areas": {
+        "name": "lakeside-cave",
+        "id": 914,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "lakeside-cave-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "loop-lagoon",
+      "areas": {
+        "name": "loop-lagoon",
+        "id": 915,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "loop-lagoon-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "loop-lagoon-beach",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "master-dojo",
+      "areas": {
+        "name": "master-dojo",
+        "id": 916,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "master-dojo-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "max-lair",
+      "areas": {
+        "name": "max-lair",
+        "id": 917,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "max-lair-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "motostoke",
+      "areas": {
+        "name": "motostoke",
+        "id": 918,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "motostoke-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "motostoke-outskirts",
+      "areas": {
+        "name": "motostoke-outskirts",
+        "id": 919,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "motostoke-outskirts-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "motostoke-riverbank",
+      "areas": {
+        "name": "motostoke-riverbank",
+        "id": 920,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "motostoke-riverbank-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "north-lake-miloch",
+      "areas": {
+        "name": "north-lake-miloch",
+        "id": 921,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "north-lake-miloch-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "old-cemetery",
+      "areas": {
+        "name": "old-cemetery",
+        "id": 922,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "old-cemetery-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "path-to-the-peak",
+      "areas": {
+        "name": "path-to-the-peak",
+        "id": 923,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "path-to-the-peak-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "postwick",
+      "areas": {
+        "name": "postwick",
+        "id": 924,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "postwick-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "potbottom-desert",
+      "areas": {
+        "name": "potbottom-desert",
+        "id": 925,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "potbottom-desert-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "roaring-sea-caves",
+      "areas": {
+        "name": "roaring-sea-caves",
+        "id": 926,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "roaring-sea-caves-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "galar-rock-peak-ruins",
+      "areas": {
+        "name": "galar-rock-peak-ruins",
+        "id": 927,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "galar-rock-peak-ruins-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "rolling-fields",
+      "areas": {
+        "name": "rolling-fields",
+        "id": 928,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "rolling-fields-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "rolling-fields-2",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "slippery-slope",
+      "areas": {
+        "name": "slippery-slope",
+        "id": 929,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "slippery-slope-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "slumbering-weald",
+      "areas": {
+        "name": "slumbering-weald",
+        "id": 930,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "slumbering-weald-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "snowslide-slope",
+      "areas": {
+        "name": "snowslide-slope",
+        "id": 931,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "snowslide-slope-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "soothing-wetlands",
+      "areas": {
+        "name": "soothing-wetlands",
+        "id": 932,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "soothing-wetlands-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "south-lake-miloch",
+      "areas": {
+        "name": "south-lake-miloch",
+        "id": 933,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "south-lake-miloch-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "south-lake-miloch-2",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "spikemuth",
+      "areas": {
+        "name": "spikemuth",
+        "id": 934,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "spikemuth-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "split-decision-ruins",
+      "areas": {
+        "name": "split-decision-ruins",
+        "id": 935,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "split-decision-ruins-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "steamdrift-way",
+      "areas": {
+        "name": "steamdrift-way",
+        "id": 936,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "steamdrift-way-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "stepping-stone-sea",
+      "areas": {
+        "name": "stepping-stone-sea",
+        "id": 937,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "stepping-stone-sea-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "stepping-stone-sea-2",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "stony-wilderness",
+      "areas": {
+        "name": "stony-wilderness",
+        "id": 938,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "stony-wilderness-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "stony-wilderness-2",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "stony-wilderness-3",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "stow-on-side",
+      "areas": {
+        "name": "stow-on-side",
+        "id": 939,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "stow-on-side-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "three-point-pass",
+      "areas": {
+        "name": "three-point-pass",
+        "id": 940,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "three-point-pass-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "tower-of-darkness",
+      "areas": {
+        "name": "tower-of-darkness",
+        "id": 941,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "tower-of-darkness-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "tower-of-waters",
+      "areas": {
+        "name": "tower-of-waters",
+        "id": 942,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "tower-of-waters-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "training-lowlands",
+      "areas": {
+        "name": "training-lowlands",
+        "id": 943,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "training-lowlands-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "training-lowlands-beach",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "tunnel-to-the-top",
+      "areas": {
+        "name": "tunnel-to-the-top",
+        "id": 944,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "tunnel-to-the-top-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "turffield",
+      "areas": {
+        "name": "turffield",
+        "id": 945,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "turffield-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "warm-up-tunnel",
+      "areas": {
+        "name": "warm-up-tunnel",
+        "id": 946,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "warm-up-tunnel-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "watchtower-ruins",
+      "areas": {
+        "name": "watchtower-ruins",
+        "id": 947,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "watchtower-ruins-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "wedgehurst",
+      "areas": {
+        "name": "wedgehurst",
+        "id": 948,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "wedgehurst-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "west-lake-axewell",
+      "areas": {
+        "name": "west-lake-axewell",
+        "id": 949,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "west-lake-axewell-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "workout-sea",
+      "areas": {
+        "name": "workout-sea",
+        "id": 950,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "workout-sea-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "wyndon",
+      "areas": {
+        "name": "wyndon",
+        "id": 951,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "wyndon-area",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "giants-cap",
+      "areas": {
+        "name": "giants-cap",
+        "id": 1041,
+        "region": {
+          "name": "galar",
+          "url": "https://pokeapi.co/api/v2/region/8/"
+        },
+        "areas": [
+          {
+            "name": "giants-cap-main",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "giants-cap-2",
+            "encounterWheel": [],
+            "avgLvl": null
+          },
+          {
+            "name": "giants-cap-3",
+            "encounterWheel": [],
+            "avgLvl": null
+          }
+        ],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    }
+  ]
+}

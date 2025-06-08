@@ -2,6 +2,7 @@ import { Router } from "express";
 import handle from "../util/handle.ts";
 import { cache, getCached } from "../util/cache.ts";
 import env from "../util/env.ts";
+import fs from 'fs'
 
 const ROOT = "https://pokeapi.co/api/v2"
 
@@ -74,6 +75,22 @@ pokeAPI.get("/pokemon/multiple/:ids", handle(async (req) => {
         status: 200,
         message: "Pokemon retreived",
         data: pokemons
+    }
+}))
+
+const encounters = JSON.parse(fs.readFileSync(`cache/encounters.json`, 'utf-8'))
+pokeAPI.get("/encounters/:region", handle(async (req) => {
+    const regionEncounters = encounters[req.params.region]
+
+    if (!regionEncounters) throw {
+        status: 404,
+        message: "Invalid region"
+    }
+
+    return {
+        status: 200,
+        message: "Encounters retreived",
+        data: regionEncounters
     }
 }))
 

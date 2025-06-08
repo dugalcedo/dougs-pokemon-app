@@ -1,0 +1,1181 @@
+{
+  "name": "paldea",
+  "locations": [
+    {
+      "name": "cabo-poco",
+      "areas": {
+        "name": "cabo-poco",
+        "id": 815,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "los-platos",
+      "areas": {
+        "name": "los-platos",
+        "id": 816,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "mesagoza",
+      "areas": {
+        "name": "mesagoza",
+        "id": 817,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "cortondo",
+      "areas": {
+        "name": "cortondo",
+        "id": 818,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "alfornada",
+      "areas": {
+        "name": "alfornada",
+        "id": 819,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "pokemon-league",
+      "areas": {
+        "name": "pokemon-league",
+        "id": 820,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "artazon",
+      "areas": {
+        "name": "artazon",
+        "id": 821,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "levincia",
+      "areas": {
+        "name": "levincia",
+        "id": 822,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "zapapico",
+      "areas": {
+        "name": "zapapico",
+        "id": 823,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "cascarrafa",
+      "areas": {
+        "name": "cascarrafa",
+        "id": 824,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "porto-marinada",
+      "areas": {
+        "name": "porto-marinada",
+        "id": 825,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "medali",
+      "areas": {
+        "name": "medali",
+        "id": 826,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "montenevera",
+      "areas": {
+        "name": "montenevera",
+        "id": 827,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-south-province-area-one",
+      "areas": {
+        "name": "paldea-south-province-area-one",
+        "id": 828,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-south-province-area-two",
+      "areas": {
+        "name": "paldea-south-province-area-two",
+        "id": 829,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-south-province-area-three",
+      "areas": {
+        "name": "paldea-south-province-area-three",
+        "id": 830,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-south-province-area-four",
+      "areas": {
+        "name": "paldea-south-province-area-four",
+        "id": 831,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-south-province-area-five",
+      "areas": {
+        "name": "paldea-south-province-area-five",
+        "id": 832,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-south-province-area-six",
+      "areas": {
+        "name": "paldea-south-province-area-six",
+        "id": 833,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "south-paldean-sea",
+      "areas": {
+        "name": "south-paldean-sea",
+        "id": 834,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "poco-path",
+      "areas": {
+        "name": "poco-path",
+        "id": 835,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "inlet-grotto",
+      "areas": {
+        "name": "inlet-grotto",
+        "id": 836,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "naranja-academy",
+      "areas": {
+        "name": "naranja-academy",
+        "id": 837,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "alfornada-cavern",
+      "areas": {
+        "name": "alfornada-cavern",
+        "id": 838,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "grasswither-shrine",
+      "areas": {
+        "name": "grasswither-shrine",
+        "id": 839,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-east-province-area-one",
+      "areas": {
+        "name": "paldea-east-province-area-one",
+        "id": 840,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-east-province-area-two",
+      "areas": {
+        "name": "paldea-east-province-area-two",
+        "id": 841,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-east-province-area-three",
+      "areas": {
+        "name": "paldea-east-province-area-three",
+        "id": 842,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "east-paldean-sea",
+      "areas": {
+        "name": "east-paldean-sea",
+        "id": 843,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "tagtree-thicket",
+      "areas": {
+        "name": "tagtree-thicket",
+        "id": 844,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "schedar-squads-base",
+      "areas": {
+        "name": "schedar-squads-base",
+        "id": 845,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "navi-squads-base",
+      "areas": {
+        "name": "navi-squads-base",
+        "id": 846,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-west-province-area-one",
+      "areas": {
+        "name": "paldea-west-province-area-one",
+        "id": 847,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-west-province-area-two",
+      "areas": {
+        "name": "paldea-west-province-area-two",
+        "id": 848,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-west-province-area-three",
+      "areas": {
+        "name": "paldea-west-province-area-three",
+        "id": 849,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "asado-desert",
+      "areas": {
+        "name": "asado-desert",
+        "id": 850,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "west-paldean-sea",
+      "areas": {
+        "name": "west-paldean-sea",
+        "id": 851,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "segin-squads-base",
+      "areas": {
+        "name": "segin-squads-base",
+        "id": 852,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "icerend-shrine",
+      "areas": {
+        "name": "icerend-shrine",
+        "id": 853,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-north-province-area-one",
+      "areas": {
+        "name": "paldea-north-province-area-one",
+        "id": 854,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-north-province-area-two",
+      "areas": {
+        "name": "paldea-north-province-area-two",
+        "id": 855,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paldea-north-province-area-three",
+      "areas": {
+        "name": "paldea-north-province-area-three",
+        "id": 856,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "casseroya-lake",
+      "areas": {
+        "name": "casseroya-lake",
+        "id": 857,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "dalizapa-passage",
+      "areas": {
+        "name": "dalizapa-passage",
+        "id": 858,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "glaseado-mountain",
+      "areas": {
+        "name": "glaseado-mountain",
+        "id": 859,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "socarrat-trail",
+      "areas": {
+        "name": "socarrat-trail",
+        "id": 860,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "groundblight-shrine",
+      "areas": {
+        "name": "groundblight-shrine",
+        "id": 861,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "firescourge-shrine",
+      "areas": {
+        "name": "firescourge-shrine",
+        "id": 862,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "north-paldean-sea",
+      "areas": {
+        "name": "north-paldean-sea",
+        "id": 863,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ruchbah-squads-base",
+      "areas": {
+        "name": "ruchbah-squads-base",
+        "id": 864,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "caph-squads-base",
+      "areas": {
+        "name": "caph-squads-base",
+        "id": 865,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "area-zero",
+      "areas": {
+        "name": "area-zero",
+        "id": 866,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "zero-lab",
+      "areas": {
+        "name": "zero-lab",
+        "id": 867,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "uva-academy",
+      "areas": {
+        "name": "uva-academy",
+        "id": 1057,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "apple-hills",
+      "areas": {
+        "name": "apple-hills",
+        "id": 1058,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "chilling-waterhead",
+      "areas": {
+        "name": "chilling-waterhead",
+        "id": 1059,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "crystal-pool",
+      "areas": {
+        "name": "crystal-pool",
+        "id": 1060,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "dreaded-den",
+      "areas": {
+        "name": "dreaded-den",
+        "id": 1061,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "fellhorn-gorge",
+      "areas": {
+        "name": "fellhorn-gorge",
+        "id": 1062,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "infernal-pass",
+      "areas": {
+        "name": "infernal-pass",
+        "id": 1063,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kitakami-hall",
+      "areas": {
+        "name": "kitakami-hall",
+        "id": 1064,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kitakami-road",
+      "areas": {
+        "name": "kitakami-road",
+        "id": 1065,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kitakami-wilds",
+      "areas": {
+        "name": "kitakami-wilds",
+        "id": 1066,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "loyalty-plaza",
+      "areas": {
+        "name": "loyalty-plaza",
+        "id": 1067,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "mossfell-confluence",
+      "areas": {
+        "name": "mossfell-confluence",
+        "id": 1068,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "mossui-town",
+      "areas": {
+        "name": "mossui-town",
+        "id": 1069,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "oni-mountain",
+      "areas": {
+        "name": "oni-mountain",
+        "id": 1070,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "onis-maw",
+      "areas": {
+        "name": "onis-maw",
+        "id": 1071,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "paradise-barrens",
+      "areas": {
+        "name": "paradise-barrens",
+        "id": 1072,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "revelers-road",
+      "areas": {
+        "name": "revelers-road",
+        "id": 1073,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "timeless-woods",
+      "areas": {
+        "name": "timeless-woods",
+        "id": 1074,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "wistful-fields",
+      "areas": {
+        "name": "wistful-fields",
+        "id": 1075,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "canyon-biome",
+      "areas": {
+        "name": "canyon-biome",
+        "id": 1076,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "canyon-plaza",
+      "areas": {
+        "name": "canyon-plaza",
+        "id": 1077,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "central-plaza",
+      "areas": {
+        "name": "central-plaza",
+        "id": 1078,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "chargestone-cavern",
+      "areas": {
+        "name": "chargestone-cavern",
+        "id": 1079,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "coastal-biome",
+      "areas": {
+        "name": "coastal-biome",
+        "id": 1080,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "coastal-plaza",
+      "areas": {
+        "name": "coastal-plaza",
+        "id": 1081,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "league-club-room",
+      "areas": {
+        "name": "league-club-room",
+        "id": 1082,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "polar-biome",
+      "areas": {
+        "name": "polar-biome",
+        "id": 1083,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "polar-plaza",
+      "areas": {
+        "name": "polar-plaza",
+        "id": 1084,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "savanna-biome",
+      "areas": {
+        "name": "savanna-biome",
+        "id": 1085,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "savanna-plaza",
+      "areas": {
+        "name": "savanna-plaza",
+        "id": 1086,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "torchlit-labyrinth",
+      "areas": {
+        "name": "torchlit-labyrinth",
+        "id": 1087,
+        "region": {
+          "name": "paldea",
+          "url": "https://pokeapi.co/api/v2/region/10/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    }
+  ]
+}

@@ -140,3 +140,27 @@ export type PlayerPokemon = Pokemon & {
     hp: number,
     moves: string[]
 }
+
+export type Encounter = {
+    pokemon: string,
+    minLvl: number,
+    maxLvl: number,
+    chanceFloor: number,
+    chanceCeil: number,
+    chance: number
+}
+
+export type RegionEncounters = {
+    name: string,
+    locations: {
+        name: string,
+        id: number,
+        region: { name: string, url: string },
+        avgLvl: number,
+        areas: {
+            name: string,
+            avgLvl: number,
+            encounterWheel: Encounter[]
+        }[]
+    }[]
+}

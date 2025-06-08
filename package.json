@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ..",
     "dev": "npx concurrently \"cd backend && npx tsx --watch src/server.ts\" \"cd frontend && npm run dev\" -n \"BACK,FRONT\""
   },
   "author": "doug alcedo",

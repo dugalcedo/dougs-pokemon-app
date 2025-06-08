@@ -1,0 +1,5735 @@
+{
+  "name": "kalos",
+  "locations": [
+    {
+      "name": "vaniville-town",
+      "areas": {
+        "name": "vaniville-town",
+        "id": 587,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-1",
+      "areas": {
+        "name": "kalos-route-1",
+        "id": 588,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "vaniville-pathway",
+      "areas": {
+        "name": "vaniville-pathway",
+        "id": 589,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "aquacorde-town",
+      "areas": {
+        "name": "aquacorde-town",
+        "id": 590,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "aquacorde-town-area",
+            "encounterWheel": [
+              {
+                "pokemon": "chespin",
+                "minLvl": 5,
+                "maxLvl": 5,
+                "chanceFloor": 0,
+                "chanceCeil": 100,
+                "chance": 0.3333333333333333
+              },
+              {
+                "pokemon": "fennekin",
+                "minLvl": 5,
+                "maxLvl": 5,
+                "chanceFloor": 100,
+                "chanceCeil": 200,
+                "chance": 0.3333333333333333
+              },
+              {
+                "pokemon": "froakie",
+                "minLvl": 5,
+                "maxLvl": 5,
+                "chanceFloor": 200,
+                "chanceCeil": 300,
+                "chance": 0.3333333333333333
+              }
+            ],
+            "avgLvl": 5
+          }
+        ],
+        "minLvl": 5,
+        "maxLvl": 5
+      }
+    },
+    {
+      "name": "kalos-route-2",
+      "areas": {
+        "name": "kalos-route-2",
+        "id": 591,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-2-area",
+            "encounterWheel": [
+              {
+                "pokemon": "caterpie",
+                "minLvl": 3,
+                "maxLvl": 4,
+                "chanceFloor": 0,
+                "chanceCeil": 5.5,
+                "chance": 0.0990990990990991
+              },
+              {
+                "pokemon": "weedle",
+                "minLvl": 3,
+                "maxLvl": 4,
+                "chanceFloor": 5.5,
+                "chanceCeil": 11,
+                "chance": 0.0990990990990991
+              },
+              {
+                "pokemon": "pidgey",
+                "minLvl": 3,
+                "maxLvl": 4,
+                "chanceFloor": 11,
+                "chanceCeil": 18,
+                "chance": 0.12612612612612611
+              },
+              {
+                "pokemon": "zigzagoon",
+                "minLvl": 3,
+                "maxLvl": 4,
+                "chanceFloor": 18,
+                "chanceCeil": 25.5,
+                "chance": 0.13513513513513514
+              },
+              {
+                "pokemon": "bunnelby",
+                "minLvl": 2,
+                "maxLvl": 3,
+                "chanceFloor": 25.5,
+                "chanceCeil": 35.5,
+                "chance": 0.18018018018018017
+              },
+              {
+                "pokemon": "fletchling",
+                "minLvl": 2,
+                "maxLvl": 3,
+                "chanceFloor": 35.5,
+                "chanceCeil": 45.5,
+                "chance": 0.18018018018018017
+              },
+              {
+                "pokemon": "scatterbug",
+                "minLvl": 2,
+                "maxLvl": 3,
+                "chanceFloor": 45.5,
+                "chanceCeil": 55.5,
+                "chance": 0.18018018018018017
+              }
+            ],
+            "avgLvl": 3.0714285714285716
+          }
+        ],
+        "minLvl": 2,
+        "maxLvl": 4
+      }
+    },
+    {
+      "name": "avance-trail",
+      "areas": {
+        "name": "avance-trail",
+        "id": 592,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "santalune-forest",
+      "areas": {
+        "name": "santalune-forest",
+        "id": 593,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "santalune-forest-area",
+            "encounterWheel": [
+              {
+                "pokemon": "caterpie",
+                "minLvl": 2,
+                "maxLvl": 3,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.12345679012345678
+              },
+              {
+                "pokemon": "metapod",
+                "minLvl": 4,
+                "maxLvl": 4,
+                "chanceFloor": 10,
+                "chanceCeil": 14,
+                "chance": 0.04938271604938271
+              },
+              {
+                "pokemon": "weedle",
+                "minLvl": 2,
+                "maxLvl": 3,
+                "chanceFloor": 14,
+                "chanceCeil": 24,
+                "chance": 0.12345679012345678
+              },
+              {
+                "pokemon": "kakuna",
+                "minLvl": 4,
+                "maxLvl": 4,
+                "chanceFloor": 24,
+                "chanceCeil": 28,
+                "chance": 0.04938271604938271
+              },
+              {
+                "pokemon": "pikachu",
+                "minLvl": 3,
+                "maxLvl": 4,
+                "chanceFloor": 28,
+                "chanceCeil": 31,
+                "chance": 0.037037037037037035
+              },
+              {
+                "pokemon": "pansage",
+                "minLvl": 4,
+                "maxLvl": 4,
+                "chanceFloor": 31,
+                "chanceCeil": 41,
+                "chance": 0.12345679012345678
+              },
+              {
+                "pokemon": "pansear",
+                "minLvl": 4,
+                "maxLvl": 4,
+                "chanceFloor": 41,
+                "chanceCeil": 51,
+                "chance": 0.12345679012345678
+              },
+              {
+                "pokemon": "panpour",
+                "minLvl": 4,
+                "maxLvl": 4,
+                "chanceFloor": 51,
+                "chanceCeil": 61,
+                "chance": 0.12345679012345678
+              },
+              {
+                "pokemon": "fletchling",
+                "minLvl": 4,
+                "maxLvl": 4,
+                "chanceFloor": 61,
+                "chanceCeil": 71,
+                "chance": 0.12345679012345678
+              },
+              {
+                "pokemon": "scatterbug",
+                "minLvl": 2,
+                "maxLvl": 3,
+                "chanceFloor": 71,
+                "chanceCeil": 81,
+                "chance": 0.12345679012345678
+              }
+            ],
+            "avgLvl": 3.5
+          }
+        ],
+        "minLvl": 2,
+        "maxLvl": 4
+      }
+    },
+    {
+      "name": "kalos-route-3",
+      "areas": {
+        "name": "kalos-route-3",
+        "id": 594,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-3-area",
+            "encounterWheel": [
+              {
+                "pokemon": "pidgey",
+                "minLvl": 4,
+                "maxLvl": 4,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.03253796095444685
+              },
+              {
+                "pokemon": "pikachu",
+                "minLvl": 4,
+                "maxLvl": 5,
+                "chanceFloor": 10,
+                "chanceCeil": 12.5,
+                "chance": 0.008134490238611713
+              },
+              {
+                "pokemon": "goldeen",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 12.5,
+                "chanceCeil": 45,
+                "chance": 0.10574837310195226
+              },
+              {
+                "pokemon": "seaking",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 45,
+                "chanceCeil": 80,
+                "chance": 0.11388286334056398
+              },
+              {
+                "pokemon": "magikarp",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 80,
+                "chanceCeil": 113.33333333333334,
+                "chance": 0.1084598698481562
+              },
+              {
+                "pokemon": "gyarados",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 113.33333333333334,
+                "chanceCeil": 173.33333333333334,
+                "chance": 0.1952277657266811
+              },
+              {
+                "pokemon": "marill",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 173.33333333333334,
+                "chanceCeil": 190.33333333333334,
+                "chance": 0.05531453362255965
+              },
+              {
+                "pokemon": "dunsparce",
+                "minLvl": 5,
+                "maxLvl": 5,
+                "chanceFloor": 190.33333333333334,
+                "chanceCeil": 195.33333333333334,
+                "chance": 0.016268980477223426
+              },
+              {
+                "pokemon": "masquerain",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 195.33333333333334,
+                "chanceCeil": 217.33333333333334,
+                "chance": 0.07158351409978307
+              },
+              {
+                "pokemon": "azurill",
+                "minLvl": 5,
+                "maxLvl": 5,
+                "chanceFloor": 217.33333333333334,
+                "chanceCeil": 227.33333333333334,
+                "chance": 0.03253796095444685
+              },
+              {
+                "pokemon": "corphish",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 227.33333333333334,
+                "chanceCeil": 262.33333333333337,
+                "chance": 0.11388286334056406
+              },
+              {
+                "pokemon": "crawdaunt",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 262.33333333333337,
+                "chanceCeil": 267.33333333333337,
+                "chance": 0.016268980477223426
+              },
+              {
+                "pokemon": "bidoof",
+                "minLvl": 3,
+                "maxLvl": 4,
+                "chanceFloor": 267.33333333333337,
+                "chanceCeil": 277.33333333333337,
+                "chance": 0.03253796095444685
+              },
+              {
+                "pokemon": "burmy",
+                "minLvl": 5,
+                "maxLvl": 5,
+                "chanceFloor": 277.33333333333337,
+                "chanceCeil": 287.33333333333337,
+                "chance": 0.03253796095444685
+              },
+              {
+                "pokemon": "bunnelby",
+                "minLvl": 3,
+                "maxLvl": 4,
+                "chanceFloor": 287.33333333333337,
+                "chanceCeil": 297.33333333333337,
+                "chance": 0.03253796095444685
+              },
+              {
+                "pokemon": "fletchling",
+                "minLvl": 4,
+                "maxLvl": 4,
+                "chanceFloor": 297.33333333333337,
+                "chanceCeil": 307.33333333333337,
+                "chance": 0.03253796095444685
+              }
+            ],
+            "avgLvl": 16.03125
+          }
+        ],
+        "minLvl": 3,
+        "maxLvl": 35
+      }
+    },
+    {
+      "name": "ouvert-way",
+      "areas": {
+        "name": "ouvert-way",
+        "id": 595,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "santalune-city",
+      "areas": {
+        "name": "santalune-city",
+        "id": 596,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-4",
+      "areas": {
+        "name": "kalos-route-4",
+        "id": 597,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-4-area",
+            "encounterWheel": [
+              {
+                "pokemon": "ledyba",
+                "minLvl": 7,
+                "maxLvl": 8,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.19230769230769232
+              },
+              {
+                "pokemon": "ralts",
+                "minLvl": 8,
+                "maxLvl": 8,
+                "chanceFloor": 10,
+                "chanceCeil": 15,
+                "chance": 0.09615384615384616
+              },
+              {
+                "pokemon": "skitty",
+                "minLvl": 8,
+                "maxLvl": 8,
+                "chanceFloor": 15,
+                "chanceCeil": 25,
+                "chance": 0.19230769230769232
+              },
+              {
+                "pokemon": "budew",
+                "minLvl": 8,
+                "maxLvl": 8,
+                "chanceFloor": 25,
+                "chanceCeil": 35,
+                "chance": 0.19230769230769232
+              },
+              {
+                "pokemon": "combee",
+                "minLvl": 7,
+                "maxLvl": 8,
+                "chanceFloor": 35,
+                "chanceCeil": 45,
+                "chance": 0.19230769230769232
+              },
+              {
+                "pokemon": "flabebe",
+                "minLvl": 7,
+                "maxLvl": 8,
+                "chanceFloor": 45,
+                "chanceCeil": 52,
+                "chance": 0.1346153846153846
+              }
+            ],
+            "avgLvl": 7.75
+          }
+        ],
+        "minLvl": 7,
+        "maxLvl": 8
+      }
+    },
+    {
+      "name": "parterre-way",
+      "areas": {
+        "name": "parterre-way",
+        "id": 598,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "lumiose-city",
+      "areas": {
+        "name": "lumiose-city",
+        "id": 599,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "lumiose-city-area",
+            "encounterWheel": [
+              {
+                "pokemon": "bulbasaur",
+                "minLvl": 10,
+                "maxLvl": 10,
+                "chanceFloor": 0,
+                "chanceCeil": 100,
+                "chance": 0.3333333333333333
+              },
+              {
+                "pokemon": "charmander",
+                "minLvl": 10,
+                "maxLvl": 10,
+                "chanceFloor": 100,
+                "chanceCeil": 200,
+                "chance": 0.3333333333333333
+              },
+              {
+                "pokemon": "squirtle",
+                "minLvl": 10,
+                "maxLvl": 10,
+                "chanceFloor": 200,
+                "chanceCeil": 300,
+                "chance": 0.3333333333333333
+              }
+            ],
+            "avgLvl": 10
+          }
+        ],
+        "minLvl": 10,
+        "maxLvl": 10
+      }
+    },
+    {
+      "name": "prism-tower",
+      "areas": {
+        "name": "prism-tower",
+        "id": 600,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "lysandre-labs",
+      "areas": {
+        "name": "lysandre-labs",
+        "id": 601,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-5",
+      "areas": {
+        "name": "kalos-route-5",
+        "id": 602,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-5-area",
+            "encounterWheel": [
+              {
+                "pokemon": "abra",
+                "minLvl": 10,
+                "maxLvl": 10,
+                "chanceFloor": 0,
+                "chanceCeil": 5,
+                "chance": 0.07142857142857142
+              },
+              {
+                "pokemon": "doduo",
+                "minLvl": 10,
+                "maxLvl": 10,
+                "chanceFloor": 5,
+                "chanceCeil": 15,
+                "chance": 0.14285714285714285
+              },
+              {
+                "pokemon": "plusle",
+                "minLvl": 9,
+                "maxLvl": 10,
+                "chanceFloor": 15,
+                "chanceCeil": 17.5,
+                "chance": 0.03571428571428571
+              },
+              {
+                "pokemon": "minun",
+                "minLvl": 9,
+                "maxLvl": 10,
+                "chanceFloor": 17.5,
+                "chanceCeil": 20,
+                "chance": 0.03571428571428571
+              },
+              {
+                "pokemon": "gulpin",
+                "minLvl": 10,
+                "maxLvl": 10,
+                "chanceFloor": 20,
+                "chanceCeil": 30,
+                "chance": 0.14285714285714285
+              },
+              {
+                "pokemon": "bunnelby",
+                "minLvl": 9,
+                "maxLvl": 10,
+                "chanceFloor": 30,
+                "chanceCeil": 40,
+                "chance": 0.14285714285714285
+              },
+              {
+                "pokemon": "skiddo",
+                "minLvl": 9,
+                "maxLvl": 10,
+                "chanceFloor": 40,
+                "chanceCeil": 50,
+                "chance": 0.14285714285714285
+              },
+              {
+                "pokemon": "pancham",
+                "minLvl": 9,
+                "maxLvl": 9,
+                "chanceFloor": 50,
+                "chanceCeil": 60,
+                "chance": 0.14285714285714285
+              },
+              {
+                "pokemon": "furfrou",
+                "minLvl": 9,
+                "maxLvl": 9,
+                "chanceFloor": 60,
+                "chanceCeil": 70,
+                "chance": 0.14285714285714285
+              }
+            ],
+            "avgLvl": 9.555555555555555
+          }
+        ],
+        "minLvl": 9,
+        "maxLvl": 10
+      }
+    },
+    {
+      "name": "versant-road",
+      "areas": {
+        "name": "versant-road",
+        "id": 603,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "camphrier-town",
+      "areas": {
+        "name": "camphrier-town",
+        "id": 604,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "shabboneau-castle",
+      "areas": {
+        "name": "shabboneau-castle",
+        "id": 605,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-6",
+      "areas": {
+        "name": "kalos-route-6",
+        "id": 606,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-6-area",
+            "encounterWheel": [
+              {
+                "pokemon": "oddish",
+                "minLvl": 11,
+                "maxLvl": 11,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.2
+              },
+              {
+                "pokemon": "sentret",
+                "minLvl": 10,
+                "maxLvl": 11,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.2
+              },
+              {
+                "pokemon": "nincada",
+                "minLvl": 12,
+                "maxLvl": 12,
+                "chanceFloor": 20,
+                "chanceCeil": 30,
+                "chance": 0.2
+              },
+              {
+                "pokemon": "kecleon",
+                "minLvl": 11,
+                "maxLvl": 12,
+                "chanceFloor": 30,
+                "chanceCeil": 32.5,
+                "chance": 0.05
+              },
+              {
+                "pokemon": "espurr",
+                "minLvl": 11,
+                "maxLvl": 12,
+                "chanceFloor": 32.5,
+                "chanceCeil": 42.5,
+                "chance": 0.2
+              },
+              {
+                "pokemon": "honedge",
+                "minLvl": 11,
+                "maxLvl": 12,
+                "chanceFloor": 42.5,
+                "chanceCeil": 50,
+                "chance": 0.15
+              }
+            ],
+            "avgLvl": 11.333333333333334
+          }
+        ],
+        "minLvl": 10,
+        "maxLvl": 12
+      }
+    },
+    {
+      "name": "palais-lane",
+      "areas": {
+        "name": "palais-lane",
+        "id": 607,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "parfum-palace",
+      "areas": {
+        "name": "parfum-palace",
+        "id": 608,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "parfum-palace-area",
+            "encounterWheel": [
+              {
+                "pokemon": "goldeen",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 0,
+                "chanceCeil": 32.5,
+                "chance": 0.16182572614107882
+              },
+              {
+                "pokemon": "seaking",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 32.5,
+                "chanceCeil": 67.5,
+                "chance": 0.17427385892116182
+              },
+              {
+                "pokemon": "magikarp",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 67.5,
+                "chanceCeil": 100.83333333333334,
+                "chance": 0.16597510373443988
+              },
+              {
+                "pokemon": "gyarados",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 100.83333333333334,
+                "chanceCeil": 160.83333333333334,
+                "chance": 0.2987551867219917
+              },
+              {
+                "pokemon": "corphish",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 160.83333333333334,
+                "chanceCeil": 195.83333333333334,
+                "chance": 0.17427385892116182
+              },
+              {
+                "pokemon": "crawdaunt",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 195.83333333333334,
+                "chanceCeil": 200.83333333333334,
+                "chance": 0.024896265560165973
+              }
+            ],
+            "avgLvl": 28.333333333333332
+          }
+        ],
+        "minLvl": 15,
+        "maxLvl": 35
+      }
+    },
+    {
+      "name": "kalos-route-7",
+      "areas": {
+        "name": "kalos-route-7",
+        "id": 609,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-7-area",
+            "encounterWheel": [
+              {
+                "pokemon": "snorlax",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 0,
+                "chanceCeil": 100,
+                "chance": 0.54421768707483
+              },
+              {
+                "pokemon": "smeargle",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 100,
+                "chanceCeil": 110,
+                "chance": 0.05442176870748299
+              },
+              {
+                "pokemon": "volbeat",
+                "minLvl": 13,
+                "maxLvl": 13,
+                "chanceFloor": 110,
+                "chanceCeil": 120,
+                "chance": 0.05442176870748299
+              },
+              {
+                "pokemon": "illumise",
+                "minLvl": 13,
+                "maxLvl": 13,
+                "chanceFloor": 120,
+                "chanceCeil": 130,
+                "chance": 0.05442176870748299
+              },
+              {
+                "pokemon": "roselia",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 130,
+                "chanceCeil": 140,
+                "chance": 0.05442176870748299
+              },
+              {
+                "pokemon": "croagunk",
+                "minLvl": 13,
+                "maxLvl": 14,
+                "chanceFloor": 140,
+                "chanceCeil": 147.5,
+                "chance": 0.04081632653061224
+              },
+              {
+                "pokemon": "ducklett",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 147.5,
+                "chanceCeil": 157.5,
+                "chance": 0.05442176870748299
+              },
+              {
+                "pokemon": "flabebe",
+                "minLvl": 13,
+                "maxLvl": 14,
+                "chanceFloor": 157.5,
+                "chanceCeil": 163.75,
+                "chance": 0.034013605442176874
+              },
+              {
+                "pokemon": "spritzee",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 163.75,
+                "chanceCeil": 173.75,
+                "chance": 0.05442176870748299
+              },
+              {
+                "pokemon": "swirlix",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 173.75,
+                "chanceCeil": 183.75,
+                "chance": 0.05442176870748299
+              }
+            ],
+            "avgLvl": 13.8
+          }
+        ],
+        "minLvl": 13,
+        "maxLvl": 15
+      }
+    },
+    {
+      "name": "rivière-walk",
+      "areas": {
+        "name": "rivière-walk",
+        "id": 610,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "cyllage-city",
+      "areas": {
+        "name": "cyllage-city",
+        "id": 611,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "cyllage-city-area",
+            "encounterWheel": [
+              {
+                "pokemon": "tentacool",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 0,
+                "chanceCeil": 23,
+                "chance": 0.06358860934476085
+              },
+              {
+                "pokemon": "onix",
+                "minLvl": 16,
+                "maxLvl": 16,
+                "chanceFloor": 23,
+                "chanceCeil": 34.666666666666664,
+                "chance": 0.03225509169661782
+              },
+              {
+                "pokemon": "horsea",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 34.666666666666664,
+                "chanceCeil": 69.66666666666666,
+                "chance": 0.09676527508985346
+              },
+              {
+                "pokemon": "seadra",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 69.66666666666666,
+                "chanceCeil": 74.66666666666666,
+                "chance": 0.013823610727121925
+              },
+              {
+                "pokemon": "wailmer",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 74.66666666666666,
+                "chanceCeil": 90.16666666666666,
+                "chance": 0.042853193254077965
+              },
+              {
+                "pokemon": "relicanth",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 90.16666666666666,
+                "chanceCeil": 150.16666666666666,
+                "chance": 0.1658833287254631
+              },
+              {
+                "pokemon": "luvdisc",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 150.16666666666666,
+                "chanceCeil": 183.5,
+                "chance": 0.09215740484747953
+              },
+              {
+                "pokemon": "dwebble",
+                "minLvl": 14,
+                "maxLvl": 15,
+                "chanceFloor": 183.5,
+                "chanceCeil": 209.7,
+                "chance": 0.07243572021011885
+              },
+              {
+                "pokemon": "binacle",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 209.7,
+                "chanceCeil": 226.7,
+                "chance": 0.047000276472214546
+              },
+              {
+                "pokemon": "skrelp",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 226.7,
+                "chanceCeil": 259.2,
+                "chance": 0.0898534697262925
+              },
+              {
+                "pokemon": "dragalge",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 259.2,
+                "chanceCeil": 294.2,
+                "chance": 0.09676527508985347
+              },
+              {
+                "pokemon": "clauncher",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 294.2,
+                "chanceCeil": 326.7,
+                "chance": 0.0898534697262925
+              },
+              {
+                "pokemon": "clawitzer",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 326.7,
+                "chanceCeil": 361.7,
+                "chance": 0.09676527508985347
+              }
+            ],
+            "avgLvl": 25.115384615384617
+          }
+        ],
+        "minLvl": 14,
+        "maxLvl": 35
+      }
+    },
+    {
+      "name": "kalos-route-8",
+      "areas": {
+        "name": "kalos-route-8",
+        "id": 612,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-8-area",
+            "encounterWheel": [
+              {
+                "pokemon": "tentacool",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 0,
+                "chanceCeil": 23,
+                "chance": 0.05045703839122486
+              },
+              {
+                "pokemon": "shellder",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 23,
+                "chanceCeil": 58,
+                "chance": 0.07678244972577696
+              },
+              {
+                "pokemon": "cloyster",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 58,
+                "chanceCeil": 63,
+                "chance": 0.010968921389396709
+              },
+              {
+                "pokemon": "staryu",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 63,
+                "chanceCeil": 98,
+                "chance": 0.07678244972577696
+              },
+              {
+                "pokemon": "starmie",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 98,
+                "chanceCeil": 103,
+                "chance": 0.010968921389396709
+              },
+              {
+                "pokemon": "qwilfish",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 103,
+                "chanceCeil": 163,
+                "chance": 0.1316270566727605
+              },
+              {
+                "pokemon": "wailmer",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 163,
+                "chanceCeil": 178.5,
+                "chance": 0.034003656307129794
+              },
+              {
+                "pokemon": "spoink",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 178.5,
+                "chanceCeil": 188.5,
+                "chance": 0.021937842778793418
+              },
+              {
+                "pokemon": "zangoose",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 188.5,
+                "chanceCeil": 198.5,
+                "chance": 0.021937842778793418
+              },
+              {
+                "pokemon": "seviper",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 198.5,
+                "chanceCeil": 208.5,
+                "chance": 0.021937842778793418
+              },
+              {
+                "pokemon": "absol",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 208.5,
+                "chanceCeil": 218.5,
+                "chance": 0.021937842778793418
+              },
+              {
+                "pokemon": "luvdisc",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 218.5,
+                "chanceCeil": 251.83333333333334,
+                "chance": 0.07312614259597808
+              },
+              {
+                "pokemon": "bagon",
+                "minLvl": 14,
+                "maxLvl": 15,
+                "chanceFloor": 251.83333333333334,
+                "chanceCeil": 254.33333333333334,
+                "chance": 0.005484460694698354
+              },
+              {
+                "pokemon": "drifloon",
+                "minLvl": 14,
+                "maxLvl": 15,
+                "chanceFloor": 254.33333333333334,
+                "chanceCeil": 264.33333333333337,
+                "chance": 0.02193784277879348
+              },
+              {
+                "pokemon": "dwebble",
+                "minLvl": 16,
+                "maxLvl": 17,
+                "chanceFloor": 264.33333333333337,
+                "chanceCeil": 286.33333333333337,
+                "chance": 0.04826325411334552
+              },
+              {
+                "pokemon": "mienfoo",
+                "minLvl": 14,
+                "maxLvl": 15,
+                "chanceFloor": 286.33333333333337,
+                "chanceCeil": 296.33333333333337,
+                "chance": 0.021937842778793418
+              },
+              {
+                "pokemon": "inkay",
+                "minLvl": 14,
+                "maxLvl": 15,
+                "chanceFloor": 296.33333333333337,
+                "chanceCeil": 303.83333333333337,
+                "chance": 0.016453382084095063
+              },
+              {
+                "pokemon": "binacle",
+                "minLvl": 16,
+                "maxLvl": 17,
+                "chanceFloor": 303.83333333333337,
+                "chanceCeil": 320.83333333333337,
+                "chance": 0.03729433272394881
+              },
+              {
+                "pokemon": "skrelp",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 320.83333333333337,
+                "chanceCeil": 353.33333333333337,
+                "chance": 0.0712979890310786
+              },
+              {
+                "pokemon": "dragalge",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 353.33333333333337,
+                "chanceCeil": 388.33333333333337,
+                "chance": 0.07678244972577696
+              },
+              {
+                "pokemon": "clauncher",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 388.33333333333337,
+                "chanceCeil": 420.83333333333337,
+                "chance": 0.0712979890310786
+              },
+              {
+                "pokemon": "clawitzer",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 420.83333333333337,
+                "chanceCeil": 455.83333333333337,
+                "chance": 0.07678244972577696
+              }
+            ],
+            "avgLvl": 22.227272727272727
+          }
+        ],
+        "minLvl": 14,
+        "maxLvl": 35
+      }
+    },
+    {
+      "name": "muraille-coast",
+      "areas": {
+        "name": "muraille-coast",
+        "id": 613,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ambrette-town",
+      "areas": {
+        "name": "ambrette-town",
+        "id": 614,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "ambrette-town-area",
+            "encounterWheel": [
+              {
+                "pokemon": "tentacool",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 0,
+                "chanceCeil": 23,
+                "chance": 0.06650602409638554
+              },
+              {
+                "pokemon": "horsea",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 23,
+                "chanceCeil": 58,
+                "chance": 0.10120481927710842
+              },
+              {
+                "pokemon": "seadra",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 58,
+                "chanceCeil": 63,
+                "chance": 0.014457831325301203
+              },
+              {
+                "pokemon": "wailmer",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 63,
+                "chanceCeil": 78.5,
+                "chance": 0.04481927710843373
+              },
+              {
+                "pokemon": "relicanth",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 78.5,
+                "chanceCeil": 138.5,
+                "chance": 0.17349397590361443
+              },
+              {
+                "pokemon": "luvdisc",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 138.5,
+                "chanceCeil": 171.83333333333334,
+                "chance": 0.09638554216867472
+              },
+              {
+                "pokemon": "dwebble",
+                "minLvl": 16,
+                "maxLvl": 17,
+                "chanceFloor": 171.83333333333334,
+                "chanceCeil": 193.83333333333334,
+                "chance": 0.0636144578313253
+              },
+              {
+                "pokemon": "binacle",
+                "minLvl": 16,
+                "maxLvl": 17,
+                "chanceFloor": 193.83333333333334,
+                "chanceCeil": 210.83333333333334,
+                "chance": 0.04915662650602409
+              },
+              {
+                "pokemon": "skrelp",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 210.83333333333334,
+                "chanceCeil": 243.33333333333334,
+                "chance": 0.09397590361445782
+              },
+              {
+                "pokemon": "dragalge",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 243.33333333333334,
+                "chanceCeil": 278.33333333333337,
+                "chance": 0.1012048192771085
+              },
+              {
+                "pokemon": "clauncher",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 278.33333333333337,
+                "chanceCeil": 310.83333333333337,
+                "chance": 0.09397590361445782
+              },
+              {
+                "pokemon": "clawitzer",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 310.83333333333337,
+                "chanceCeil": 345.83333333333337,
+                "chance": 0.10120481927710842
+              }
+            ],
+            "avgLvl": 26.25
+          }
+        ],
+        "minLvl": 15,
+        "maxLvl": 35
+      }
+    },
+    {
+      "name": "kalos-route-9",
+      "areas": {
+        "name": "kalos-route-9",
+        "id": 615,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-9-area",
+            "encounterWheel": [
+              {
+                "pokemon": "hippopotas",
+                "minLvl": 16,
+                "maxLvl": 16,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.4
+              },
+              {
+                "pokemon": "sandile",
+                "minLvl": 16,
+                "maxLvl": 16,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.4
+              },
+              {
+                "pokemon": "helioptile",
+                "minLvl": 16,
+                "maxLvl": 16,
+                "chanceFloor": 20,
+                "chanceCeil": 25,
+                "chance": 0.2
+              }
+            ],
+            "avgLvl": 16
+          }
+        ],
+        "minLvl": 16,
+        "maxLvl": 16
+      }
+    },
+    {
+      "name": "spikes-passage",
+      "areas": {
+        "name": "spikes-passage",
+        "id": 616,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "battle-chateau",
+      "areas": {
+        "name": "battle-chateau",
+        "id": 617,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-10",
+      "areas": {
+        "name": "kalos-route-10",
+        "id": 618,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-10-area",
+            "encounterWheel": [
+              {
+                "pokemon": "eevee",
+                "minLvl": 20,
+                "maxLvl": 20,
+                "chanceFloor": 0,
+                "chanceCeil": 8.333333333333334,
+                "chance": 0.12048192771084337
+              },
+              {
+                "pokemon": "snubbull",
+                "minLvl": 20,
+                "maxLvl": 21,
+                "chanceFloor": 8.333333333333334,
+                "chanceCeil": 18.333333333333336,
+                "chance": 0.14457831325301207
+              },
+              {
+                "pokemon": "houndour",
+                "minLvl": 20,
+                "maxLvl": 20,
+                "chanceFloor": 18.333333333333336,
+                "chanceCeil": 28.333333333333336,
+                "chance": 0.14457831325301204
+              },
+              {
+                "pokemon": "electrike",
+                "minLvl": 20,
+                "maxLvl": 20,
+                "chanceFloor": 28.333333333333336,
+                "chanceCeil": 38.333333333333336,
+                "chance": 0.14457831325301204
+              },
+              {
+                "pokemon": "sigilyph",
+                "minLvl": 20,
+                "maxLvl": 20,
+                "chanceFloor": 38.333333333333336,
+                "chanceCeil": 48.333333333333336,
+                "chance": 0.14457831325301204
+              },
+              {
+                "pokemon": "emolga",
+                "minLvl": 19,
+                "maxLvl": 20,
+                "chanceFloor": 48.333333333333336,
+                "chanceCeil": 50.833333333333336,
+                "chance": 0.03614457831325301
+              },
+              {
+                "pokemon": "golett",
+                "minLvl": 20,
+                "maxLvl": 21,
+                "chanceFloor": 50.833333333333336,
+                "chanceCeil": 60.833333333333336,
+                "chance": 0.14457831325301204
+              },
+              {
+                "pokemon": "hawlucha",
+                "minLvl": 20,
+                "maxLvl": 20,
+                "chanceFloor": 60.833333333333336,
+                "chanceCeil": 69.16666666666667,
+                "chance": 0.1204819277108434
+              }
+            ],
+            "avgLvl": 20.0625
+          }
+        ],
+        "minLvl": 19,
+        "maxLvl": 21
+      }
+    },
+    {
+      "name": "menhir-trail",
+      "areas": {
+        "name": "menhir-trail",
+        "id": 619,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "geosenge-town",
+      "areas": {
+        "name": "geosenge-town",
+        "id": 620,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-11",
+      "areas": {
+        "name": "kalos-route-11",
+        "id": 621,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-11-area",
+            "encounterWheel": [
+              {
+                "pokemon": "nidorina",
+                "minLvl": 21,
+                "maxLvl": 21,
+                "chanceFloor": 0,
+                "chanceCeil": 5,
+                "chance": 0.06451612903225806
+              },
+              {
+                "pokemon": "nidorino",
+                "minLvl": 21,
+                "maxLvl": 21,
+                "chanceFloor": 5,
+                "chanceCeil": 15,
+                "chance": 0.12903225806451613
+              },
+              {
+                "pokemon": "hariyama",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 15,
+                "chanceCeil": 25,
+                "chance": 0.12903225806451613
+              },
+              {
+                "pokemon": "staravia",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 25,
+                "chanceCeil": 35,
+                "chance": 0.12903225806451613
+              },
+              {
+                "pokemon": "chingling",
+                "minLvl": 21,
+                "maxLvl": 21,
+                "chanceFloor": 35,
+                "chanceCeil": 45,
+                "chance": 0.12903225806451613
+              },
+              {
+                "pokemon": "stunky",
+                "minLvl": 21,
+                "maxLvl": 21,
+                "chanceFloor": 45,
+                "chanceCeil": 55,
+                "chance": 0.12903225806451613
+              },
+              {
+                "pokemon": "throh",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 55,
+                "chanceCeil": 65,
+                "chance": 0.12903225806451613
+              },
+              {
+                "pokemon": "sawk",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 65,
+                "chanceCeil": 75,
+                "chance": 0.12903225806451613
+              },
+              {
+                "pokemon": "dedenne",
+                "minLvl": 21,
+                "maxLvl": 22,
+                "chanceFloor": 75,
+                "chanceCeil": 77.5,
+                "chance": 0.03225806451612903
+              }
+            ],
+            "avgLvl": 21.72222222222222
+          }
+        ],
+        "minLvl": 21,
+        "maxLvl": 23
+      }
+    },
+    {
+      "name": "miroir-way",
+      "areas": {
+        "name": "miroir-way",
+        "id": 622,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "reflection-cave",
+      "areas": {
+        "name": "reflection-cave",
+        "id": 623,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "reflection-cave-unknown-area-305",
+            "encounterWheel": [
+              {
+                "pokemon": "mr-mime",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "wobbuffet",
+                "minLvl": 22,
+                "maxLvl": 22,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "sableye",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 20,
+                "chanceCeil": 22.5,
+                "chance": 0.041666666666666664
+              },
+              {
+                "pokemon": "chingling",
+                "minLvl": 21,
+                "maxLvl": 22,
+                "chanceFloor": 22.5,
+                "chanceCeil": 30,
+                "chance": 0.125
+              },
+              {
+                "pokemon": "roggenrola",
+                "minLvl": 21,
+                "maxLvl": 22,
+                "chanceFloor": 30,
+                "chanceCeil": 40,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "solosis",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 40,
+                "chanceCeil": 50,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "carbink",
+                "minLvl": 23,
+                "maxLvl": 23,
+                "chanceFloor": 50,
+                "chanceCeil": 60,
+                "chance": 0.16666666666666666
+              }
+            ],
+            "avgLvl": 22.214285714285715
+          },
+          {
+            "name": "reflection-cave-unknown-area-306",
+            "encounterWheel": [
+              {
+                "pokemon": "mr-mime",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "wobbuffet",
+                "minLvl": 22,
+                "maxLvl": 22,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "sableye",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 20,
+                "chanceCeil": 22.5,
+                "chance": 0.041666666666666664
+              },
+              {
+                "pokemon": "chingling",
+                "minLvl": 21,
+                "maxLvl": 22,
+                "chanceFloor": 22.5,
+                "chanceCeil": 30,
+                "chance": 0.125
+              },
+              {
+                "pokemon": "roggenrola",
+                "minLvl": 21,
+                "maxLvl": 22,
+                "chanceFloor": 30,
+                "chanceCeil": 40,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "solosis",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 40,
+                "chanceCeil": 50,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "carbink",
+                "minLvl": 23,
+                "maxLvl": 23,
+                "chanceFloor": 50,
+                "chanceCeil": 60,
+                "chance": 0.16666666666666666
+              }
+            ],
+            "avgLvl": 22.214285714285715
+          },
+          {
+            "name": "reflection-cave-unknown-area-307",
+            "encounterWheel": [
+              {
+                "pokemon": "mr-mime",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "wobbuffet",
+                "minLvl": 22,
+                "maxLvl": 22,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "sableye",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 20,
+                "chanceCeil": 22.5,
+                "chance": 0.041666666666666664
+              },
+              {
+                "pokemon": "chingling",
+                "minLvl": 21,
+                "maxLvl": 22,
+                "chanceFloor": 22.5,
+                "chanceCeil": 30,
+                "chance": 0.125
+              },
+              {
+                "pokemon": "roggenrola",
+                "minLvl": 21,
+                "maxLvl": 22,
+                "chanceFloor": 30,
+                "chanceCeil": 40,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "solosis",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 40,
+                "chanceCeil": 50,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "carbink",
+                "minLvl": 23,
+                "maxLvl": 23,
+                "chanceFloor": 50,
+                "chanceCeil": 60,
+                "chance": 0.16666666666666666
+              }
+            ],
+            "avgLvl": 22.214285714285715
+          },
+          {
+            "name": "reflection-cave-unknown-area-308",
+            "encounterWheel": [
+              {
+                "pokemon": "mr-mime",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "wobbuffet",
+                "minLvl": 22,
+                "maxLvl": 22,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "sableye",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 20,
+                "chanceCeil": 22.5,
+                "chance": 0.041666666666666664
+              },
+              {
+                "pokemon": "chingling",
+                "minLvl": 21,
+                "maxLvl": 22,
+                "chanceFloor": 22.5,
+                "chanceCeil": 30,
+                "chance": 0.125
+              },
+              {
+                "pokemon": "roggenrola",
+                "minLvl": 21,
+                "maxLvl": 22,
+                "chanceFloor": 30,
+                "chanceCeil": 40,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "solosis",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 40,
+                "chanceCeil": 50,
+                "chance": 0.16666666666666666
+              },
+              {
+                "pokemon": "carbink",
+                "minLvl": 23,
+                "maxLvl": 23,
+                "chanceFloor": 50,
+                "chanceCeil": 60,
+                "chance": 0.16666666666666666
+              }
+            ],
+            "avgLvl": 22.214285714285715
+          }
+        ],
+        "minLvl": 21,
+        "maxLvl": 23
+      }
+    },
+    {
+      "name": "shalour-city",
+      "areas": {
+        "name": "shalour-city",
+        "id": 624,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "shalour-city-area",
+            "encounterWheel": [
+              {
+                "pokemon": "tentacool",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 0,
+                "chanceCeil": 28,
+                "chance": 0.11822660098522167
+              },
+              {
+                "pokemon": "chinchou",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 28,
+                "chanceCeil": 63,
+                "chance": 0.14778325123152708
+              },
+              {
+                "pokemon": "lanturn",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 63,
+                "chanceCeil": 68,
+                "chance": 0.0211118930330753
+              },
+              {
+                "pokemon": "remoraid",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 68,
+                "chanceCeil": 100.5,
+                "chance": 0.13722730471498945
+              },
+              {
+                "pokemon": "octillery",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 100.5,
+                "chanceCeil": 135.5,
+                "chance": 0.14778325123152708
+              },
+              {
+                "pokemon": "luvdisc",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 135.5,
+                "chanceCeil": 168.83333333333334,
+                "chance": 0.14074595355383537
+              },
+              {
+                "pokemon": "mantyke",
+                "minLvl": 27,
+                "maxLvl": 27,
+                "chanceFloor": 168.83333333333334,
+                "chanceCeil": 176.83333333333334,
+                "chance": 0.03377902885292048
+              },
+              {
+                "pokemon": "alomomola",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 176.83333333333334,
+                "chanceCeil": 236.83333333333334,
+                "chance": 0.2533427163969036
+              }
+            ],
+            "avgLvl": 27.875
+          }
+        ],
+        "minLvl": 15,
+        "maxLvl": 35
+      }
+    },
+    {
+      "name": "tower-of-mastery",
+      "areas": {
+        "name": "tower-of-mastery",
+        "id": 625,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "tower-of-mastery-area",
+            "encounterWheel": [
+              {
+                "pokemon": "lucario",
+                "minLvl": 32,
+                "maxLvl": 32,
+                "chanceFloor": 0,
+                "chanceCeil": 100,
+                "chance": 1
+              }
+            ],
+            "avgLvl": 32
+          }
+        ],
+        "minLvl": 32,
+        "maxLvl": 32
+      }
+    },
+    {
+      "name": "kalos-route-12",
+      "areas": {
+        "name": "kalos-route-12",
+        "id": 626,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-12-area",
+            "encounterWheel": [
+              {
+                "pokemon": "tentacool",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 0,
+                "chanceCeil": 28,
+                "chance": 0.055906821963394346
+              },
+              {
+                "pokemon": "slowpoke",
+                "minLvl": 24,
+                "maxLvl": 25,
+                "chanceFloor": 28,
+                "chanceCeil": 38,
+                "chance": 0.019966722129783693
+              },
+              {
+                "pokemon": "exeggcute",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 38,
+                "chanceCeil": 48,
+                "chance": 0.019966722129783693
+              },
+              {
+                "pokemon": "pinsir",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 48,
+                "chanceCeil": 53,
+                "chance": 0.009983361064891847
+              },
+              {
+                "pokemon": "tauros",
+                "minLvl": 25,
+                "maxLvl": 26,
+                "chanceFloor": 53,
+                "chanceCeil": 63,
+                "chance": 0.019966722129783693
+              },
+              {
+                "pokemon": "lapras",
+                "minLvl": 28,
+                "maxLvl": 29,
+                "chanceFloor": 63,
+                "chanceCeil": 113.5,
+                "chance": 0.10083194675540766
+              },
+              {
+                "pokemon": "heracross",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 113.5,
+                "chanceCeil": 118.5,
+                "chance": 0.009983361064891847
+              },
+              {
+                "pokemon": "corsola",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 118.5,
+                "chanceCeil": 178.5,
+                "chance": 0.11980033277870217
+              },
+              {
+                "pokemon": "remoraid",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 178.5,
+                "chanceCeil": 211,
+                "chance": 0.064891846921797
+              },
+              {
+                "pokemon": "octillery",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 211,
+                "chanceCeil": 246,
+                "chance": 0.06988352745424294
+              },
+              {
+                "pokemon": "miltank",
+                "minLvl": 25,
+                "maxLvl": 26,
+                "chanceFloor": 246,
+                "chanceCeil": 256,
+                "chance": 0.019966722129783693
+              },
+              {
+                "pokemon": "clamperl",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 256,
+                "chanceCeil": 291,
+                "chance": 0.06988352745424294
+              },
+              {
+                "pokemon": "huntail",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 291,
+                "chanceCeil": 296,
+                "chance": 0.009983361064891847
+              },
+              {
+                "pokemon": "gorebyss",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 296,
+                "chanceCeil": 301,
+                "chance": 0.009983361064891847
+              },
+              {
+                "pokemon": "luvdisc",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 301,
+                "chanceCeil": 334.3333333333333,
+                "chance": 0.06655574043261228
+              },
+              {
+                "pokemon": "pachirisu",
+                "minLvl": 24,
+                "maxLvl": 25,
+                "chanceFloor": 334.3333333333333,
+                "chanceCeil": 336.8333333333333,
+                "chance": 0.004991680532445923
+              },
+              {
+                "pokemon": "chatot",
+                "minLvl": 24,
+                "maxLvl": 25,
+                "chanceFloor": 336.8333333333333,
+                "chanceCeil": 346.8333333333333,
+                "chance": 0.019966722129783693
+              },
+              {
+                "pokemon": "mantyke",
+                "minLvl": 27,
+                "maxLvl": 27,
+                "chanceFloor": 346.8333333333333,
+                "chanceCeil": 361.8333333333333,
+                "chance": 0.029950083194675542
+              },
+              {
+                "pokemon": "dwebble",
+                "minLvl": 24,
+                "maxLvl": 24,
+                "chanceFloor": 361.8333333333333,
+                "chanceCeil": 383.8333333333333,
+                "chance": 0.043926788685524125
+              },
+              {
+                "pokemon": "binacle",
+                "minLvl": 24,
+                "maxLvl": 24,
+                "chanceFloor": 383.8333333333333,
+                "chanceCeil": 400.8333333333333,
+                "chance": 0.03394342762063228
+              },
+              {
+                "pokemon": "necrozma",
+                "minLvl": 75,
+                "maxLvl": 75,
+                "chanceFloor": 400.8333333333333,
+                "chanceCeil": 500.8333333333333,
+                "chance": 0.19966722129783696
+              }
+            ],
+            "avgLvl": 29.095238095238095
+          }
+        ],
+        "minLvl": 15,
+        "maxLvl": 75
+      }
+    },
+    {
+      "name": "fourrage-road",
+      "areas": {
+        "name": "fourrage-road",
+        "id": 627,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "coumarine-city",
+      "areas": {
+        "name": "coumarine-city",
+        "id": 628,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-13",
+      "areas": {
+        "name": "kalos-route-13",
+        "id": 629,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-13-area",
+            "encounterWheel": [
+              {
+                "pokemon": "dugtrio",
+                "minLvl": 27,
+                "maxLvl": 27,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.15625
+              },
+              {
+                "pokemon": "graveler",
+                "minLvl": 27,
+                "maxLvl": 27,
+                "chanceFloor": 10,
+                "chanceCeil": 32,
+                "chance": 0.34375
+              },
+              {
+                "pokemon": "slugma",
+                "minLvl": 27,
+                "maxLvl": 27,
+                "chanceFloor": 32,
+                "chanceCeil": 49,
+                "chance": 0.265625
+              },
+              {
+                "pokemon": "trapinch",
+                "minLvl": 27,
+                "maxLvl": 27,
+                "chanceFloor": 49,
+                "chanceCeil": 59,
+                "chance": 0.15625
+              },
+              {
+                "pokemon": "gible",
+                "minLvl": 27,
+                "maxLvl": 27,
+                "chanceFloor": 59,
+                "chanceCeil": 64,
+                "chance": 0.078125
+              }
+            ],
+            "avgLvl": 27
+          }
+        ],
+        "minLvl": 27,
+        "maxLvl": 27
+      }
+    },
+    {
+      "name": "lumiose-badlands",
+      "areas": {
+        "name": "lumiose-badlands",
+        "id": 630,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-14",
+      "areas": {
+        "name": "kalos-route-14",
+        "id": 631,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-14-area",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.14919806042521447
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 66.66666666666667,
+                "chance": 0.14919806042521447
+              },
+              {
+                "pokemon": "weepinbell",
+                "minLvl": 31,
+                "maxLvl": 32,
+                "chanceFloor": 66.66666666666667,
+                "chanceCeil": 76.66666666666667,
+                "chance": 0.044759418127564336
+              },
+              {
+                "pokemon": "haunter",
+                "minLvl": 31,
+                "maxLvl": 31,
+                "chanceFloor": 76.66666666666667,
+                "chanceCeil": 81.66666666666667,
+                "chance": 0.022379709063782168
+              },
+              {
+                "pokemon": "quagsire",
+                "minLvl": 30,
+                "maxLvl": 31,
+                "chanceFloor": 81.66666666666667,
+                "chanceCeil": 99.66666666666667,
+                "chance": 0.08056695262961582
+              },
+              {
+                "pokemon": "barboach",
+                "minLvl": 30,
+                "maxLvl": 30,
+                "chanceFloor": 99.66666666666667,
+                "chanceCeil": 132.16666666666669,
+                "chance": 0.14546810891458417
+              },
+              {
+                "pokemon": "whiscash",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 132.16666666666669,
+                "chanceCeil": 167.16666666666669,
+                "chance": 0.15665796344647517
+              },
+              {
+                "pokemon": "skorupi",
+                "minLvl": 30,
+                "maxLvl": 31,
+                "chanceFloor": 167.16666666666669,
+                "chanceCeil": 177.16666666666669,
+                "chance": 0.044759418127564336
+              },
+              {
+                "pokemon": "carnivine",
+                "minLvl": 31,
+                "maxLvl": 32,
+                "chanceFloor": 177.16666666666669,
+                "chanceCeil": 181.16666666666669,
+                "chance": 0.017903767251025736
+              },
+              {
+                "pokemon": "karrablast",
+                "minLvl": 30,
+                "maxLvl": 30,
+                "chanceFloor": 181.16666666666669,
+                "chanceCeil": 191.16666666666669,
+                "chance": 0.044759418127564336
+              },
+              {
+                "pokemon": "shelmet",
+                "minLvl": 30,
+                "maxLvl": 30,
+                "chanceFloor": 191.16666666666669,
+                "chanceCeil": 201.16666666666669,
+                "chance": 0.044759418127564336
+              },
+              {
+                "pokemon": "stunfisk",
+                "minLvl": 31,
+                "maxLvl": 32,
+                "chanceFloor": 201.16666666666669,
+                "chanceCeil": 212.16666666666669,
+                "chance": 0.04923535994032077
+              },
+              {
+                "pokemon": "goomy",
+                "minLvl": 31,
+                "maxLvl": 31,
+                "chanceFloor": 212.16666666666669,
+                "chanceCeil": 223.41666666666669,
+                "chance": 0.05035434539350988
+              }
+            ],
+            "avgLvl": 30.192307692307693
+          }
+        ],
+        "minLvl": 15,
+        "maxLvl": 35
+      }
+    },
+    {
+      "name": "laverre-nature-trail",
+      "areas": {
+        "name": "laverre-nature-trail",
+        "id": 632,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "laverre-city",
+      "areas": {
+        "name": "laverre-city",
+        "id": 633,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "laverre-city-area",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.25
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 31,
+                "maxLvl": 32,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 66.66666666666667,
+                "chance": 0.25
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 28,
+                "maxLvl": 29,
+                "chanceFloor": 66.66666666666667,
+                "chanceCeil": 100,
+                "chance": 0.24999999999999994
+              },
+              {
+                "pokemon": "basculin-blue-striped",
+                "minLvl": 28,
+                "maxLvl": 29,
+                "chanceFloor": 100,
+                "chanceCeil": 133.33333333333334,
+                "chance": 0.25000000000000006
+              }
+            ],
+            "avgLvl": 25.875
+          }
+        ],
+        "minLvl": 15,
+        "maxLvl": 32
+      }
+    },
+    {
+      "name": "poke-ball-factory",
+      "areas": {
+        "name": "poke-ball-factory",
+        "id": 634,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-15",
+      "areas": {
+        "name": "kalos-route-15",
+        "id": 635,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-15-area",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.1414427157001414
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 31,
+                "maxLvl": 32,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 66.66666666666667,
+                "chance": 0.1414427157001414
+              },
+              {
+                "pokemon": "mightyena",
+                "minLvl": 35,
+                "maxLvl": 36,
+                "chanceFloor": 66.66666666666667,
+                "chanceCeil": 76.66666666666667,
+                "chance": 0.04243281471004243
+              },
+              {
+                "pokemon": "lombre",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 76.66666666666667,
+                "chanceCeil": 98.66666666666667,
+                "chance": 0.09335219236209333
+              },
+              {
+                "pokemon": "floatzel",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 98.66666666666667,
+                "chanceCeil": 115.66666666666667,
+                "chance": 0.07213578500707211
+              },
+              {
+                "pokemon": "skorupi",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 115.66666666666667,
+                "chanceCeil": 125.66666666666667,
+                "chance": 0.04243281471004243
+              },
+              {
+                "pokemon": "watchog",
+                "minLvl": 35,
+                "maxLvl": 36,
+                "chanceFloor": 125.66666666666667,
+                "chanceCeil": 135.66666666666669,
+                "chance": 0.04243281471004248
+              },
+              {
+                "pokemon": "liepard",
+                "minLvl": 35,
+                "maxLvl": 36,
+                "chanceFloor": 135.66666666666669,
+                "chanceCeil": 145.66666666666669,
+                "chance": 0.04243281471004243
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 28,
+                "maxLvl": 29,
+                "chanceFloor": 145.66666666666669,
+                "chanceCeil": 179.00000000000003,
+                "chance": 0.14144271570014144
+              },
+              {
+                "pokemon": "foongus",
+                "minLvl": 34,
+                "maxLvl": 35,
+                "chanceFloor": 179.00000000000003,
+                "chanceCeil": 189.00000000000003,
+                "chance": 0.04243281471004243
+              },
+              {
+                "pokemon": "pawniard",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 189.00000000000003,
+                "chanceCeil": 199.00000000000003,
+                "chance": 0.04243281471004243
+              },
+              {
+                "pokemon": "klefki",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 199.00000000000003,
+                "chanceCeil": 202.33333333333337,
+                "chance": 0.014144271570014182
+              },
+              {
+                "pokemon": "basculin-blue-striped",
+                "minLvl": 28,
+                "maxLvl": 29,
+                "chanceFloor": 202.33333333333337,
+                "chanceCeil": 235.6666666666667,
+                "chance": 0.14144271570014144
+              }
+            ],
+            "avgLvl": 32.26923076923077
+          }
+        ],
+        "minLvl": 15,
+        "maxLvl": 36
+      }
+    },
+    {
+      "name": "brun-way",
+      "areas": {
+        "name": "brun-way",
+        "id": 636,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "dendemille-town",
+      "areas": {
+        "name": "dendemille-town",
+        "id": 637,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-16",
+      "areas": {
+        "name": "kalos-route-16",
+        "id": 638,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-16-area",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.13681762210972773
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 31,
+                "maxLvl": 32,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 66.66666666666667,
+                "chance": 0.13681762210972773
+              },
+              {
+                "pokemon": "weepinbell",
+                "minLvl": 35,
+                "maxLvl": 36,
+                "chanceFloor": 66.66666666666667,
+                "chanceCeil": 76.66666666666667,
+                "chance": 0.041045286632918315
+              },
+              {
+                "pokemon": "lombre",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 76.66666666666667,
+                "chanceCeil": 98.66666666666667,
+                "chance": 0.0902996305924203
+              },
+              {
+                "pokemon": "floatzel",
+                "minLvl": 35,
+                "maxLvl": 36,
+                "chanceFloor": 98.66666666666667,
+                "chanceCeil": 112.16666666666667,
+                "chance": 0.05541113695443973
+              },
+              {
+                "pokemon": "skorupi",
+                "minLvl": 34,
+                "maxLvl": 35,
+                "chanceFloor": 112.16666666666667,
+                "chanceCeil": 122.16666666666667,
+                "chance": 0.041045286632918315
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 28,
+                "maxLvl": 29,
+                "chanceFloor": 122.16666666666667,
+                "chanceCeil": 155.5,
+                "chance": 0.1368176221097277
+              },
+              {
+                "pokemon": "foongus",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 155.5,
+                "chanceCeil": 165.5,
+                "chance": 0.041045286632918315
+              },
+              {
+                "pokemon": "klefki",
+                "minLvl": 34,
+                "maxLvl": 35,
+                "chanceFloor": 165.5,
+                "chanceCeil": 169.3,
+                "chance": 0.015597208920509007
+              },
+              {
+                "pokemon": "phantump",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 169.3,
+                "chanceCeil": 179.3,
+                "chance": 0.041045286632918315
+              },
+              {
+                "pokemon": "pumpkaboo-average",
+                "minLvl": 34,
+                "maxLvl": 35,
+                "chanceFloor": 179.3,
+                "chanceCeil": 189.3,
+                "chance": 0.041045286632918315
+              },
+              {
+                "pokemon": "basculin-blue-striped",
+                "minLvl": 28,
+                "maxLvl": 29,
+                "chanceFloor": 189.3,
+                "chanceCeil": 222.63333333333335,
+                "chance": 0.13681762210972775
+              },
+              {
+                "pokemon": "pumpkaboo-small",
+                "minLvl": 35,
+                "maxLvl": 36,
+                "chanceFloor": 222.63333333333335,
+                "chanceCeil": 232.63333333333335,
+                "chance": 0.041045286632918315
+              },
+              {
+                "pokemon": "pumpkaboo-large",
+                "minLvl": 36,
+                "maxLvl": 36,
+                "chanceFloor": 232.63333333333335,
+                "chanceCeil": 242.63333333333335,
+                "chance": 0.041045286632918315
+              },
+              {
+                "pokemon": "pumpkaboo-super",
+                "minLvl": 36,
+                "maxLvl": 36,
+                "chanceFloor": 242.63333333333335,
+                "chanceCeil": 243.63333333333335,
+                "chance": 0.004104528663291832
+              }
+            ],
+            "avgLvl": 32.7
+          }
+        ],
+        "minLvl": 15,
+        "maxLvl": 36
+      }
+    },
+    {
+      "name": "melancolie-path",
+      "areas": {
+        "name": "melancolie-path",
+        "id": 639,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "frost-cavern",
+      "areas": {
+        "name": "frost-cavern",
+        "id": 640,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "frost-cavern-unknown-area-313",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 20,
+                "maxLvl": 20,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.23041474654377878
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 37,
+                "maxLvl": 38,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 61,
+                "chance": 0.19124423963133635
+              },
+              {
+                "pokemon": "floatzel",
+                "minLvl": 39,
+                "maxLvl": 39,
+                "chanceFloor": 61,
+                "chanceCeil": 78,
+                "chance": 0.11751152073732718
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 33,
+                "maxLvl": 34,
+                "chanceFloor": 78,
+                "chanceCeil": 111.33333333333334,
+                "chance": 0.23041474654377883
+              },
+              {
+                "pokemon": "basculin-blue-striped",
+                "minLvl": 33,
+                "maxLvl": 34,
+                "chanceFloor": 111.33333333333334,
+                "chanceCeil": 144.66666666666669,
+                "chance": 0.23041474654377883
+              }
+            ],
+            "avgLvl": 32.7
+          },
+          {
+            "name": "frost-cavern-unknown-area-314",
+            "encounterWheel": [
+              {
+                "pokemon": "haunter",
+                "minLvl": 39,
+                "maxLvl": 39,
+                "chanceFloor": 0,
+                "chanceCeil": 5.333333333333333,
+                "chance": 0.10810810810810811
+              },
+              {
+                "pokemon": "jynx",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 5.333333333333333,
+                "chanceCeil": 15.333333333333332,
+                "chance": 0.20270270270270271
+              },
+              {
+                "pokemon": "piloswine",
+                "minLvl": 38,
+                "maxLvl": 39,
+                "chanceFloor": 15.333333333333332,
+                "chanceCeil": 25.333333333333332,
+                "chance": 0.20270270270270271
+              },
+              {
+                "pokemon": "beartic",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 25.333333333333332,
+                "chanceCeil": 35.33333333333333,
+                "chance": 0.20270270270270266
+              },
+              {
+                "pokemon": "cryogonal",
+                "minLvl": 40,
+                "maxLvl": 40,
+                "chanceFloor": 35.33333333333333,
+                "chanceCeil": 39.33333333333333,
+                "chance": 0.08108108108108109
+              },
+              {
+                "pokemon": "bergmite",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 39.33333333333333,
+                "chanceCeil": 49.33333333333333,
+                "chance": 0.20270270270270271
+              }
+            ],
+            "avgLvl": 39.333333333333336
+          },
+          {
+            "name": "frost-cavern-unknown-area-315",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 20,
+                "maxLvl": 20,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.171990171990172
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 37,
+                "maxLvl": 38,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 61,
+                "chance": 0.14275184275184272
+              },
+              {
+                "pokemon": "haunter",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 61,
+                "chanceCeil": 66.14285714285714,
+                "chance": 0.02653562653562651
+              },
+              {
+                "pokemon": "jynx",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 66.14285714285714,
+                "chanceCeil": 76.14285714285714,
+                "chance": 0.051597051597051594
+              },
+              {
+                "pokemon": "piloswine",
+                "minLvl": 38,
+                "maxLvl": 39,
+                "chanceFloor": 76.14285714285714,
+                "chanceCeil": 86.14285714285714,
+                "chance": 0.051597051597051594
+              },
+              {
+                "pokemon": "floatzel",
+                "minLvl": 39,
+                "maxLvl": 39,
+                "chanceFloor": 86.14285714285714,
+                "chanceCeil": 103.14285714285714,
+                "chance": 0.0877149877149877
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 33,
+                "maxLvl": 34,
+                "chanceFloor": 103.14285714285714,
+                "chanceCeil": 136.47619047619048,
+                "chance": 0.17199017199017202
+              },
+              {
+                "pokemon": "beartic",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 136.47619047619048,
+                "chanceCeil": 146.47619047619048,
+                "chance": 0.051597051597051594
+              },
+              {
+                "pokemon": "cryogonal",
+                "minLvl": 40,
+                "maxLvl": 40,
+                "chanceFloor": 146.47619047619048,
+                "chanceCeil": 150.47619047619048,
+                "chance": 0.020638820638820637
+              },
+              {
+                "pokemon": "bergmite",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 150.47619047619048,
+                "chanceCeil": 160.47619047619048,
+                "chance": 0.051597051597051594
+              },
+              {
+                "pokemon": "basculin-blue-striped",
+                "minLvl": 33,
+                "maxLvl": 34,
+                "chanceFloor": 160.47619047619048,
+                "chanceCeil": 193.80952380952382,
+                "chance": 0.17199017199017202
+              }
+            ],
+            "avgLvl": 36.36363636363637
+          },
+          {
+            "name": "frost-cavern-unknown-area-316",
+            "encounterWheel": [
+              {
+                "pokemon": "haunter",
+                "minLvl": 39,
+                "maxLvl": 39,
+                "chanceFloor": 0,
+                "chanceCeil": 5.333333333333333,
+                "chance": 0.10810810810810811
+              },
+              {
+                "pokemon": "jynx",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 5.333333333333333,
+                "chanceCeil": 15.333333333333332,
+                "chance": 0.20270270270270271
+              },
+              {
+                "pokemon": "piloswine",
+                "minLvl": 38,
+                "maxLvl": 39,
+                "chanceFloor": 15.333333333333332,
+                "chanceCeil": 25.333333333333332,
+                "chance": 0.20270270270270271
+              },
+              {
+                "pokemon": "beartic",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 25.333333333333332,
+                "chanceCeil": 35.33333333333333,
+                "chance": 0.20270270270270266
+              },
+              {
+                "pokemon": "cryogonal",
+                "minLvl": 40,
+                "maxLvl": 40,
+                "chanceFloor": 35.33333333333333,
+                "chanceCeil": 39.33333333333333,
+                "chance": 0.08108108108108109
+              },
+              {
+                "pokemon": "bergmite",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 39.33333333333333,
+                "chanceCeil": 49.33333333333333,
+                "chance": 0.20270270270270271
+              }
+            ],
+            "avgLvl": 39.333333333333336
+          },
+          {
+            "name": "frost-cavern-unknown-area-317",
+            "encounterWheel": [
+              {
+                "pokemon": "haunter",
+                "minLvl": 39,
+                "maxLvl": 39,
+                "chanceFloor": 0,
+                "chanceCeil": 5.333333333333333,
+                "chance": 0.10810810810810811
+              },
+              {
+                "pokemon": "jynx",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 5.333333333333333,
+                "chanceCeil": 15.333333333333332,
+                "chance": 0.20270270270270271
+              },
+              {
+                "pokemon": "piloswine",
+                "minLvl": 38,
+                "maxLvl": 39,
+                "chanceFloor": 15.333333333333332,
+                "chanceCeil": 25.333333333333332,
+                "chance": 0.20270270270270271
+              },
+              {
+                "pokemon": "beartic",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 25.333333333333332,
+                "chanceCeil": 35.33333333333333,
+                "chance": 0.20270270270270266
+              },
+              {
+                "pokemon": "cryogonal",
+                "minLvl": 40,
+                "maxLvl": 40,
+                "chanceFloor": 35.33333333333333,
+                "chanceCeil": 39.33333333333333,
+                "chance": 0.08108108108108109
+              },
+              {
+                "pokemon": "bergmite",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 39.33333333333333,
+                "chanceCeil": 49.33333333333333,
+                "chance": 0.20270270270270271
+              }
+            ],
+            "avgLvl": 39.333333333333336
+          }
+        ],
+        "minLvl": 20,
+        "maxLvl": 40
+      }
+    },
+    {
+      "name": "kalos-route-17",
+      "areas": {
+        "name": "kalos-route-17",
+        "id": 641,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-17-area",
+            "encounterWheel": [
+              {
+                "pokemon": "sneasel",
+                "minLvl": 39,
+                "maxLvl": 40,
+                "chanceFloor": 0,
+                "chanceCeil": 7.25,
+                "chance": 0.25663716814159293
+              },
+              {
+                "pokemon": "delibird",
+                "minLvl": 39,
+                "maxLvl": 39,
+                "chanceFloor": 7.25,
+                "chanceCeil": 17.25,
+                "chance": 0.35398230088495575
+              },
+              {
+                "pokemon": "snover",
+                "minLvl": 38,
+                "maxLvl": 39,
+                "chanceFloor": 17.25,
+                "chanceCeil": 27.25,
+                "chance": 0.35398230088495575
+              },
+              {
+                "pokemon": "abomasnow",
+                "minLvl": 40,
+                "maxLvl": 40,
+                "chanceFloor": 27.25,
+                "chanceCeil": 28.25,
+                "chance": 0.035398230088495575
+              }
+            ],
+            "avgLvl": 39.25
+          }
+        ],
+        "minLvl": 38,
+        "maxLvl": 40
+      }
+    },
+    {
+      "name": "mamoswine-road",
+      "areas": {
+        "name": "mamoswine-road",
+        "id": 642,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "anistar-city",
+      "areas": {
+        "name": "anistar-city",
+        "id": 643,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-18",
+      "areas": {
+        "name": "kalos-route-18",
+        "id": 644,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-18-area",
+            "encounterWheel": [
+              {
+                "pokemon": "sandslash",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.12068965517241378
+              },
+              {
+                "pokemon": "graveler",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 10,
+                "chanceCeil": 27.857142857142858,
+                "chance": 0.21551724137931033
+              },
+              {
+                "pokemon": "shuckle",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 27.857142857142858,
+                "chanceCeil": 30.357142857142858,
+                "chance": 0.030172413793103446
+              },
+              {
+                "pokemon": "pupitar",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 30.357142857142858,
+                "chanceCeil": 40.35714285714286,
+                "chance": 0.12068965517241383
+              },
+              {
+                "pokemon": "lairon",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 40.35714285714286,
+                "chanceCeil": 50.35714285714286,
+                "chance": 0.12068965517241378
+              },
+              {
+                "pokemon": "torkoal",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 50.35714285714286,
+                "chanceCeil": 60.35714285714286,
+                "chance": 0.12068965517241378
+              },
+              {
+                "pokemon": "gurdurr",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 60.35714285714286,
+                "chanceCeil": 70.35714285714286,
+                "chance": 0.12068965517241378
+              },
+              {
+                "pokemon": "heatmor",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 70.35714285714286,
+                "chanceCeil": 72.85714285714286,
+                "chance": 0.030172413793103446
+              },
+              {
+                "pokemon": "durant",
+                "minLvl": 44,
+                "maxLvl": 44,
+                "chanceFloor": 72.85714285714286,
+                "chanceCeil": 82.85714285714286,
+                "chance": 0.12068965517241378
+              }
+            ],
+            "avgLvl": 45.166666666666664
+          }
+        ],
+        "minLvl": 44,
+        "maxLvl": 46
+      }
+    },
+    {
+      "name": "vallee-etroite-way",
+      "areas": {
+        "name": "vallee-etroite-way",
+        "id": 645,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "couriway-town",
+      "areas": {
+        "name": "couriway-town",
+        "id": 646,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "couriway-town-area",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.19342359767891684
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 41,
+                "maxLvl": 42,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 66.66666666666667,
+                "chance": 0.19342359767891684
+              },
+              {
+                "pokemon": "lombre",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 66.66666666666667,
+                "chanceCeil": 88.66666666666667,
+                "chance": 0.1276595744680851
+              },
+              {
+                "pokemon": "floatzel",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 88.66666666666667,
+                "chanceCeil": 105.66666666666667,
+                "chance": 0.09864603481624758
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 38,
+                "maxLvl": 39,
+                "chanceFloor": 105.66666666666667,
+                "chanceCeil": 139,
+                "chance": 0.1934235976789168
+              },
+              {
+                "pokemon": "basculin-blue-striped",
+                "minLvl": 38,
+                "maxLvl": 39,
+                "chanceFloor": 139,
+                "chanceCeil": 172.33333333333334,
+                "chance": 0.19342359767891687
+              }
+            ],
+            "avgLvl": 38.916666666666664
+          }
+        ],
+        "minLvl": 25,
+        "maxLvl": 45
+      }
+    },
+    {
+      "name": "kalos-route-19",
+      "areas": {
+        "name": "kalos-route-19",
+        "id": 647,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-19-area",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.13960909453530118
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 40,
+                "maxLvl": 40,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 80.83333333333334,
+                "chance": 0.19894295971280418
+              },
+              {
+                "pokemon": "weepinbell",
+                "minLvl": 47,
+                "maxLvl": 47,
+                "chanceFloor": 80.83333333333334,
+                "chanceCeil": 90.83333333333334,
+                "chance": 0.04188272836059035
+              },
+              {
+                "pokemon": "haunter",
+                "minLvl": 47,
+                "maxLvl": 47,
+                "chanceFloor": 90.83333333333334,
+                "chanceCeil": 95.83333333333334,
+                "chance": 0.020941364180295175
+              },
+              {
+                "pokemon": "politoed",
+                "minLvl": 50,
+                "maxLvl": 50,
+                "chanceFloor": 95.83333333333334,
+                "chanceCeil": 100.83333333333334,
+                "chance": 0.020941364180295175
+              },
+              {
+                "pokemon": "quagsire",
+                "minLvl": 47,
+                "maxLvl": 47,
+                "chanceFloor": 100.83333333333334,
+                "chanceCeil": 115.83333333333334,
+                "chance": 0.06282409254088551
+              },
+              {
+                "pokemon": "barboach",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 115.83333333333334,
+                "chanceCeil": 148.33333333333334,
+                "chance": 0.13611886717191862
+              },
+              {
+                "pokemon": "whiscash",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 148.33333333333334,
+                "chanceCeil": 183.33333333333334,
+                "chance": 0.14658954926206622
+              },
+              {
+                "pokemon": "drapion",
+                "minLvl": 47,
+                "maxLvl": 48,
+                "chanceFloor": 183.33333333333334,
+                "chanceCeil": 193.33333333333334,
+                "chance": 0.04188272836059035
+              },
+              {
+                "pokemon": "carnivine",
+                "minLvl": 47,
+                "maxLvl": 47,
+                "chanceFloor": 193.33333333333334,
+                "chanceCeil": 195.83333333333334,
+                "chance": 0.010470682090147588
+              },
+              {
+                "pokemon": "karrablast",
+                "minLvl": 47,
+                "maxLvl": 47,
+                "chanceFloor": 195.83333333333334,
+                "chanceCeil": 205.83333333333334,
+                "chance": 0.04188272836059035
+              },
+              {
+                "pokemon": "shelmet",
+                "minLvl": 47,
+                "maxLvl": 47,
+                "chanceFloor": 205.83333333333334,
+                "chanceCeil": 215.83333333333334,
+                "chance": 0.04188272836059035
+              },
+              {
+                "pokemon": "stunfisk",
+                "minLvl": 47,
+                "maxLvl": 48,
+                "chanceFloor": 215.83333333333334,
+                "chanceCeil": 229.33333333333334,
+                "chance": 0.05654168328679697
+              },
+              {
+                "pokemon": "sliggoo",
+                "minLvl": 47,
+                "maxLvl": 48,
+                "chanceFloor": 229.33333333333334,
+                "chanceCeil": 238.76190476190476,
+                "chance": 0.03948942959712799
+              }
+            ],
+            "avgLvl": 44.25
+          }
+        ],
+        "minLvl": 25,
+        "maxLvl": 50
+      }
+    },
+    {
+      "name": "grande-vallee-way",
+      "areas": {
+        "name": "grande-vallee-way",
+        "id": 648,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "snowbelle-city",
+      "areas": {
+        "name": "snowbelle-city",
+        "id": 649,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-20",
+      "areas": {
+        "name": "kalos-route-20",
+        "id": 650,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-20-area",
+            "encounterWheel": [
+              {
+                "pokemon": "jigglypuff",
+                "minLvl": 49,
+                "maxLvl": 49,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.19672131147540983
+              },
+              {
+                "pokemon": "noctowl",
+                "minLvl": 49,
+                "maxLvl": 50,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.19672131147540983
+              },
+              {
+                "pokemon": "zoroark",
+                "minLvl": 49,
+                "maxLvl": 49,
+                "chanceFloor": 20,
+                "chanceCeil": 22.5,
+                "chance": 0.04918032786885246
+              },
+              {
+                "pokemon": "gothorita",
+                "minLvl": 49,
+                "maxLvl": 50,
+                "chanceFloor": 22.5,
+                "chanceCeil": 32.5,
+                "chance": 0.19672131147540983
+              },
+              {
+                "pokemon": "amoonguss",
+                "minLvl": 49,
+                "maxLvl": 49,
+                "chanceFloor": 32.5,
+                "chanceCeil": 40.833333333333336,
+                "chance": 0.16393442622950824
+              },
+              {
+                "pokemon": "trevenant",
+                "minLvl": 49,
+                "maxLvl": 49,
+                "chanceFloor": 40.833333333333336,
+                "chanceCeil": 50.833333333333336,
+                "chance": 0.19672131147540983
+              }
+            ],
+            "avgLvl": 49.166666666666664
+          }
+        ],
+        "minLvl": 49,
+        "maxLvl": 50
+      }
+    },
+    {
+      "name": "winding-woods",
+      "areas": {
+        "name": "winding-woods",
+        "id": 651,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "pokemon-village",
+      "areas": {
+        "name": "pokemon-village",
+        "id": 652,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "pokemon-village-area",
+            "encounterWheel": [
+              {
+                "pokemon": "jigglypuff",
+                "minLvl": 49,
+                "maxLvl": 49,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.04947229551451187
+              },
+              {
+                "pokemon": "poliwag",
+                "minLvl": 30,
+                "maxLvl": 30,
+                "chanceFloor": 10,
+                "chanceCeil": 43.333333333333336,
+                "chance": 0.16490765171503957
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 47,
+                "maxLvl": 48,
+                "chanceFloor": 43.333333333333336,
+                "chanceCeil": 70.13333333333334,
+                "chance": 0.13258575197889183
+              },
+              {
+                "pokemon": "ditto",
+                "minLvl": 49,
+                "maxLvl": 49,
+                "chanceFloor": 70.13333333333334,
+                "chanceCeil": 80.13333333333334,
+                "chance": 0.04947229551451187
+              },
+              {
+                "pokemon": "noctowl",
+                "minLvl": 49,
+                "maxLvl": 50,
+                "chanceFloor": 80.13333333333334,
+                "chanceCeil": 90.13333333333334,
+                "chance": 0.04947229551451187
+              },
+              {
+                "pokemon": "lombre",
+                "minLvl": 49,
+                "maxLvl": 49,
+                "chanceFloor": 90.13333333333334,
+                "chanceCeil": 112.13333333333334,
+                "chance": 0.10883905013192612
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 43,
+                "maxLvl": 44,
+                "chanceFloor": 112.13333333333334,
+                "chanceCeil": 145.46666666666667,
+                "chance": 0.16490765171503954
+              },
+              {
+                "pokemon": "zoroark",
+                "minLvl": 49,
+                "maxLvl": 49,
+                "chanceFloor": 145.46666666666667,
+                "chanceCeil": 148.8,
+                "chance": 0.016490765171504003
+              },
+              {
+                "pokemon": "gothorita",
+                "minLvl": 49,
+                "maxLvl": 50,
+                "chanceFloor": 148.8,
+                "chanceCeil": 158.8,
+                "chance": 0.04947229551451187
+              },
+              {
+                "pokemon": "amoonguss",
+                "minLvl": 49,
+                "maxLvl": 50,
+                "chanceFloor": 158.8,
+                "chanceCeil": 168.8,
+                "chance": 0.04947229551451187
+              },
+              {
+                "pokemon": "basculin-blue-striped",
+                "minLvl": 43,
+                "maxLvl": 44,
+                "chanceFloor": 168.8,
+                "chanceCeil": 202.13333333333335,
+                "chance": 0.1649076517150396
+              }
+            ],
+            "avgLvl": 46.27272727272727
+          }
+        ],
+        "minLvl": 30,
+        "maxLvl": 50
+      }
+    },
+    {
+      "name": "kalos-route-21",
+      "areas": {
+        "name": "kalos-route-21",
+        "id": 653,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-21-area",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 30,
+                "maxLvl": 30,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.1620745542949757
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 80.83333333333334,
+                "chance": 0.23095623987034036
+              },
+              {
+                "pokemon": "scyther",
+                "minLvl": 51,
+                "maxLvl": 51,
+                "chanceFloor": 80.83333333333334,
+                "chanceCeil": 84.16666666666667,
+                "chance": 0.016207455429497544
+              },
+              {
+                "pokemon": "dratini",
+                "minLvl": 40,
+                "maxLvl": 40,
+                "chanceFloor": 84.16666666666667,
+                "chanceCeil": 89.16666666666667,
+                "chance": 0.02431118314424635
+              },
+              {
+                "pokemon": "dragonair",
+                "minLvl": 50,
+                "maxLvl": 50,
+                "chanceFloor": 89.16666666666667,
+                "chanceCeil": 94.16666666666667,
+                "chance": 0.02431118314424635
+              },
+              {
+                "pokemon": "ursaring",
+                "minLvl": 51,
+                "maxLvl": 51,
+                "chanceFloor": 94.16666666666667,
+                "chanceCeil": 104.16666666666667,
+                "chance": 0.0486223662884927
+              },
+              {
+                "pokemon": "lombre",
+                "minLvl": 51,
+                "maxLvl": 51,
+                "chanceFloor": 104.16666666666667,
+                "chanceCeil": 126.16666666666667,
+                "chance": 0.10696920583468394
+              },
+              {
+                "pokemon": "spinda",
+                "minLvl": 51,
+                "maxLvl": 51,
+                "chanceFloor": 126.16666666666667,
+                "chanceCeil": 136.16666666666669,
+                "chance": 0.04862236628849277
+              },
+              {
+                "pokemon": "altaria",
+                "minLvl": 50,
+                "maxLvl": 51,
+                "chanceFloor": 136.16666666666669,
+                "chanceCeil": 146.16666666666669,
+                "chance": 0.0486223662884927
+              },
+              {
+                "pokemon": "floatzel",
+                "minLvl": 51,
+                "maxLvl": 51,
+                "chanceFloor": 146.16666666666669,
+                "chanceCeil": 158.16666666666669,
+                "chance": 0.05834683954619124
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 158.16666666666669,
+                "chanceCeil": 205.66666666666669,
+                "chance": 0.23095623987034034
+              }
+            ],
+            "avgLvl": 46.86363636363637
+          }
+        ],
+        "minLvl": 30,
+        "maxLvl": 51
+      }
+    },
+    {
+      "name": "dernière-way",
+      "areas": {
+        "name": "dernière-way",
+        "id": 654,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-route-22",
+      "areas": {
+        "name": "kalos-route-22",
+        "id": 655,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-route-22-area",
+            "encounterWheel": [
+              {
+                "pokemon": "psyduck",
+                "minLvl": 22,
+                "maxLvl": 23,
+                "chanceFloor": 0,
+                "chanceCeil": 20.833333333333332,
+                "chance": 0.06821282401091405
+              },
+              {
+                "pokemon": "farfetchd",
+                "minLvl": 16,
+                "maxLvl": 17,
+                "chanceFloor": 20.833333333333332,
+                "chanceCeil": 30.833333333333332,
+                "chance": 0.03274215552523875
+              },
+              {
+                "pokemon": "goldeen",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 30.833333333333332,
+                "chanceCeil": 63.33333333333333,
+                "chance": 0.10641200545702593
+              },
+              {
+                "pokemon": "seaking",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 63.33333333333333,
+                "chanceCeil": 98.33333333333333,
+                "chance": 0.11459754433833562
+              },
+              {
+                "pokemon": "magikarp",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 98.33333333333333,
+                "chanceCeil": 131.66666666666666,
+                "chance": 0.10914051841746249
+              },
+              {
+                "pokemon": "gyarados",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 131.66666666666666,
+                "chanceCeil": 191.66666666666666,
+                "chance": 0.1964529331514325
+              },
+              {
+                "pokemon": "azumarill",
+                "minLvl": 25,
+                "maxLvl": 26,
+                "chanceFloor": 191.66666666666666,
+                "chanceCeil": 197.91666666666666,
+                "chance": 0.020463847203274217
+              },
+              {
+                "pokemon": "dunsparce",
+                "minLvl": 16,
+                "maxLvl": 17,
+                "chanceFloor": 197.91666666666666,
+                "chanceCeil": 202.91666666666666,
+                "chance": 0.016371077762619375
+              },
+              {
+                "pokemon": "azurill",
+                "minLvl": 6,
+                "maxLvl": 7,
+                "chanceFloor": 202.91666666666666,
+                "chanceCeil": 212.91666666666666,
+                "chance": 0.03274215552523875
+              },
+              {
+                "pokemon": "carvanha",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 212.91666666666666,
+                "chanceCeil": 247.91666666666666,
+                "chance": 0.11459754433833562
+              },
+              {
+                "pokemon": "sharpedo",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 247.91666666666666,
+                "chanceCeil": 252.91666666666666,
+                "chance": 0.016371077762619375
+              },
+              {
+                "pokemon": "bidoof",
+                "minLvl": 6,
+                "maxLvl": 6,
+                "chanceFloor": 252.91666666666666,
+                "chanceCeil": 262.91666666666663,
+                "chance": 0.03274215552523865
+              },
+              {
+                "pokemon": "bibarel",
+                "minLvl": 26,
+                "maxLvl": 27,
+                "chanceFloor": 262.91666666666663,
+                "chanceCeil": 272.91666666666663,
+                "chance": 0.03274215552523875
+              },
+              {
+                "pokemon": "riolu",
+                "minLvl": 16,
+                "maxLvl": 16,
+                "chanceFloor": 272.91666666666663,
+                "chanceCeil": 275.41666666666663,
+                "chance": 0.008185538881309688
+              },
+              {
+                "pokemon": "bunnelby",
+                "minLvl": 5,
+                "maxLvl": 6,
+                "chanceFloor": 275.41666666666663,
+                "chanceCeil": 285.41666666666663,
+                "chance": 0.03274215552523875
+              },
+              {
+                "pokemon": "diggersby",
+                "minLvl": 27,
+                "maxLvl": 27,
+                "chanceFloor": 285.41666666666663,
+                "chanceCeil": 295.41666666666663,
+                "chance": 0.03274215552523875
+              },
+              {
+                "pokemon": "litleo",
+                "minLvl": 12,
+                "maxLvl": 12,
+                "chanceFloor": 295.41666666666663,
+                "chanceCeil": 305.41666666666663,
+                "chance": 0.03274215552523875
+              }
+            ],
+            "avgLvl": 20.61764705882353
+          }
+        ],
+        "minLvl": 5,
+        "maxLvl": 35
+      }
+    },
+    {
+      "name": "detourner-way",
+      "areas": {
+        "name": "detourner-way",
+        "id": 656,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-victory-road",
+      "areas": {
+        "name": "kalos-victory-road",
+        "id": 657,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "kalos-victory-road-unknown-area-322",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.1586042823156225
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 54,
+                "maxLvl": 55,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 61,
+                "chance": 0.13164155432196667
+              },
+              {
+                "pokemon": "graveler",
+                "minLvl": 57,
+                "maxLvl": 58,
+                "chanceFloor": 61,
+                "chanceCeil": 84,
+                "chance": 0.10943695479777953
+              },
+              {
+                "pokemon": "haunter",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 84,
+                "chanceCeil": 94,
+                "chance": 0.047581284694686754
+              },
+              {
+                "pokemon": "lickitung",
+                "minLvl": 58,
+                "maxLvl": 59,
+                "chanceFloor": 94,
+                "chanceCeil": 101.5,
+                "chance": 0.035685963521015066
+              },
+              {
+                "pokemon": "shuckle",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 101.5,
+                "chanceCeil": 104,
+                "chance": 0.011895321173671689
+              },
+              {
+                "pokemon": "floatzel",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 104,
+                "chanceCeil": 121,
+                "chance": 0.08088818398096748
+              },
+              {
+                "pokemon": "gurdurr",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 121,
+                "chanceCeil": 131,
+                "chance": 0.047581284694686754
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 48,
+                "maxLvl": 49,
+                "chanceFloor": 131,
+                "chanceCeil": 164.33333333333334,
+                "chance": 0.15860428231562254
+              },
+              {
+                "pokemon": "druddigon",
+                "minLvl": 58,
+                "maxLvl": 59,
+                "chanceFloor": 164.33333333333334,
+                "chanceCeil": 174.33333333333334,
+                "chance": 0.047581284694686754
+              },
+              {
+                "pokemon": "zweilous",
+                "minLvl": 59,
+                "maxLvl": 59,
+                "chanceFloor": 174.33333333333334,
+                "chanceCeil": 176.83333333333334,
+                "chance": 0.011895321173671689
+              },
+              {
+                "pokemon": "basculin-blue-striped",
+                "minLvl": 48,
+                "maxLvl": 49,
+                "chanceFloor": 176.83333333333334,
+                "chanceCeil": 210.16666666666669,
+                "chance": 0.15860428231562254
+              }
+            ],
+            "avgLvl": 54.333333333333336
+          },
+          {
+            "name": "kalos-victory-road-unknown-area-324",
+            "encounterWheel": [
+              {
+                "pokemon": "graveler",
+                "minLvl": 57,
+                "maxLvl": 58,
+                "chanceFloor": 0,
+                "chanceCeil": 23,
+                "chance": 0.3511450381679389
+              },
+              {
+                "pokemon": "haunter",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 23,
+                "chanceCeil": 33,
+                "chance": 0.15267175572519084
+              },
+              {
+                "pokemon": "lickitung",
+                "minLvl": 58,
+                "maxLvl": 59,
+                "chanceFloor": 33,
+                "chanceCeil": 40.5,
+                "chance": 0.11450381679389313
+              },
+              {
+                "pokemon": "shuckle",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 40.5,
+                "chanceCeil": 43,
+                "chance": 0.03816793893129771
+              },
+              {
+                "pokemon": "gurdurr",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 43,
+                "chanceCeil": 53,
+                "chance": 0.15267175572519084
+              },
+              {
+                "pokemon": "druddigon",
+                "minLvl": 58,
+                "maxLvl": 59,
+                "chanceFloor": 53,
+                "chanceCeil": 63,
+                "chance": 0.15267175572519084
+              },
+              {
+                "pokemon": "zweilous",
+                "minLvl": 59,
+                "maxLvl": 59,
+                "chanceFloor": 63,
+                "chanceCeil": 65.5,
+                "chance": 0.03816793893129771
+              }
+            ],
+            "avgLvl": 58.214285714285715
+          },
+          {
+            "name": "kalos-victory-road-unknown-area-326",
+            "encounterWheel": [
+              {
+                "pokemon": "graveler",
+                "minLvl": 57,
+                "maxLvl": 58,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.2
+              },
+              {
+                "pokemon": "haunter",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.2
+              },
+              {
+                "pokemon": "lickitung",
+                "minLvl": 58,
+                "maxLvl": 59,
+                "chanceFloor": 20,
+                "chanceCeil": 27.5,
+                "chance": 0.15
+              },
+              {
+                "pokemon": "gurdurr",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 27.5,
+                "chanceCeil": 37.5,
+                "chance": 0.2
+              },
+              {
+                "pokemon": "druddigon",
+                "minLvl": 58,
+                "maxLvl": 59,
+                "chanceFloor": 37.5,
+                "chanceCeil": 47.5,
+                "chance": 0.2
+              },
+              {
+                "pokemon": "zweilous",
+                "minLvl": 59,
+                "maxLvl": 59,
+                "chanceFloor": 47.5,
+                "chanceCeil": 50,
+                "chance": 0.05
+              }
+            ],
+            "avgLvl": 58.25
+          },
+          {
+            "name": "kalos-victory-road-unknown-area-327",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.19342359767891684
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 51,
+                "maxLvl": 52,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 66.66666666666667,
+                "chance": 0.19342359767891684
+              },
+              {
+                "pokemon": "lombre",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 66.66666666666667,
+                "chanceCeil": 88.66666666666667,
+                "chance": 0.1276595744680851
+              },
+              {
+                "pokemon": "floatzel",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 88.66666666666667,
+                "chanceCeil": 105.66666666666667,
+                "chance": 0.09864603481624758
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 48,
+                "maxLvl": 49,
+                "chanceFloor": 105.66666666666667,
+                "chanceCeil": 139,
+                "chance": 0.1934235976789168
+              },
+              {
+                "pokemon": "basculin-blue-striped",
+                "minLvl": 48,
+                "maxLvl": 49,
+                "chanceFloor": 139,
+                "chanceCeil": 172.33333333333334,
+                "chance": 0.19342359767891687
+              }
+            ],
+            "avgLvl": 49.916666666666664
+          },
+          {
+            "name": "kalos-victory-road-unknown-area-328",
+            "encounterWheel": [
+              {
+                "pokemon": "poliwag",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 0,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.16323865491348352
+              },
+              {
+                "pokemon": "poliwhirl",
+                "minLvl": 54,
+                "maxLvl": 55,
+                "chanceFloor": 33.333333333333336,
+                "chanceCeil": 65.53333333333333,
+                "chance": 0.15768854064642504
+              },
+              {
+                "pokemon": "poliwrath",
+                "minLvl": 60,
+                "maxLvl": 60,
+                "chanceFloor": 65.53333333333333,
+                "chanceCeil": 70.53333333333333,
+                "chance": 0.024485798237022526
+              },
+              {
+                "pokemon": "graveler",
+                "minLvl": 57,
+                "maxLvl": 58,
+                "chanceFloor": 70.53333333333333,
+                "chanceCeil": 80.53333333333333,
+                "chance": 0.04897159647404505
+              },
+              {
+                "pokemon": "haunter",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 80.53333333333333,
+                "chanceCeil": 90.53333333333333,
+                "chance": 0.04897159647404505
+              },
+              {
+                "pokemon": "lickitung",
+                "minLvl": 58,
+                "maxLvl": 59,
+                "chanceFloor": 90.53333333333333,
+                "chanceCeil": 98.03333333333333,
+                "chance": 0.03672869735553379
+              },
+              {
+                "pokemon": "floatzel",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 98.03333333333333,
+                "chanceCeil": 115.03333333333333,
+                "chance": 0.08325171400587658
+              },
+              {
+                "pokemon": "gurdurr",
+                "minLvl": 58,
+                "maxLvl": 58,
+                "chanceFloor": 115.03333333333333,
+                "chanceCeil": 125.03333333333333,
+                "chance": 0.04897159647404505
+              },
+              {
+                "pokemon": "basculin-red-striped",
+                "minLvl": 48,
+                "maxLvl": 49,
+                "chanceFloor": 125.03333333333333,
+                "chanceCeil": 158.36666666666667,
+                "chance": 0.16323865491348355
+              },
+              {
+                "pokemon": "druddigon",
+                "minLvl": 58,
+                "maxLvl": 59,
+                "chanceFloor": 158.36666666666667,
+                "chanceCeil": 168.36666666666667,
+                "chance": 0.04897159647404505
+              },
+              {
+                "pokemon": "zweilous",
+                "minLvl": 59,
+                "maxLvl": 59,
+                "chanceFloor": 168.36666666666667,
+                "chanceCeil": 170.86666666666667,
+                "chance": 0.012242899118511263
+              },
+              {
+                "pokemon": "basculin-blue-striped",
+                "minLvl": 48,
+                "maxLvl": 49,
+                "chanceFloor": 170.86666666666667,
+                "chanceCeil": 204.20000000000002,
+                "chance": 0.16323865491348355
+              }
+            ],
+            "avgLvl": 54.5
+          }
+        ],
+        "minLvl": 35,
+        "maxLvl": 60
+      }
+    },
+    {
+      "name": "kalos-pokemon-league",
+      "areas": {
+        "name": "kalos-pokemon-league",
+        "id": 658,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kiloude-city",
+      "areas": {
+        "name": "kiloude-city",
+        "id": 659,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "battle-maison",
+      "areas": {
+        "name": "battle-maison",
+        "id": 660,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "azure-bay",
+      "areas": {
+        "name": "azure-bay",
+        "id": 661,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "azure-bay-area",
+            "encounterWheel": [
+              {
+                "pokemon": "tentacool",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 0,
+                "chanceCeil": 28,
+                "chance": 0.08795811518324606
+              },
+              {
+                "pokemon": "slowpoke",
+                "minLvl": 26,
+                "maxLvl": 27,
+                "chanceFloor": 28,
+                "chanceCeil": 38,
+                "chance": 0.031413612565445025
+              },
+              {
+                "pokemon": "exeggcute",
+                "minLvl": 26,
+                "maxLvl": 26,
+                "chanceFloor": 38,
+                "chanceCeil": 48,
+                "chance": 0.031413612565445025
+              },
+              {
+                "pokemon": "lapras",
+                "minLvl": 27,
+                "maxLvl": 27,
+                "chanceFloor": 48,
+                "chanceCeil": 49,
+                "chance": 0.0031413612565445023
+              },
+              {
+                "pokemon": "chinchou",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 49,
+                "chanceCeil": 84,
+                "chance": 0.10994764397905758
+              },
+              {
+                "pokemon": "lanturn",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 84,
+                "chanceCeil": 89,
+                "chance": 0.015706806282722512
+              },
+              {
+                "pokemon": "remoraid",
+                "minLvl": 25,
+                "maxLvl": 25,
+                "chanceFloor": 89,
+                "chanceCeil": 121.5,
+                "chance": 0.10209424083769632
+              },
+              {
+                "pokemon": "octillery",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 121.5,
+                "chanceCeil": 156.5,
+                "chance": 0.10994764397905758
+              },
+              {
+                "pokemon": "luvdisc",
+                "minLvl": 15,
+                "maxLvl": 15,
+                "chanceFloor": 156.5,
+                "chanceCeil": 189.83333333333334,
+                "chance": 0.10471204188481677
+              },
+              {
+                "pokemon": "chatot",
+                "minLvl": 26,
+                "maxLvl": 27,
+                "chanceFloor": 189.83333333333334,
+                "chanceCeil": 196.83333333333334,
+                "chance": 0.021989528795811515
+              },
+              {
+                "pokemon": "mantyke",
+                "minLvl": 27,
+                "maxLvl": 27,
+                "chanceFloor": 196.83333333333334,
+                "chanceCeil": 211.83333333333334,
+                "chance": 0.04712041884816753
+              },
+              {
+                "pokemon": "dwebble",
+                "minLvl": 24,
+                "maxLvl": 24,
+                "chanceFloor": 211.83333333333334,
+                "chanceCeil": 233.83333333333334,
+                "chance": 0.06910994764397906
+              },
+              {
+                "pokemon": "alomomola",
+                "minLvl": 35,
+                "maxLvl": 35,
+                "chanceFloor": 233.83333333333334,
+                "chanceCeil": 293.83333333333337,
+                "chance": 0.18848167539267022
+              },
+              {
+                "pokemon": "inkay",
+                "minLvl": 26,
+                "maxLvl": 27,
+                "chanceFloor": 293.83333333333337,
+                "chanceCeil": 301.33333333333337,
+                "chance": 0.023560209424083767
+              },
+              {
+                "pokemon": "binacle",
+                "minLvl": 24,
+                "maxLvl": 24,
+                "chanceFloor": 301.33333333333337,
+                "chanceCeil": 318.33333333333337,
+                "chance": 0.05340314136125654
+              }
+            ],
+            "avgLvl": 26.9
+          }
+        ],
+        "minLvl": 15,
+        "maxLvl": 35
+      }
+    },
+    {
+      "name": "dendemille-gate",
+      "areas": {
+        "name": "dendemille-gate",
+        "id": 662,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "couriway-gate",
+      "areas": {
+        "name": "couriway-gate",
+        "id": 663,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ambrette-gate",
+      "areas": {
+        "name": "ambrette-gate",
+        "id": 664,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "lumiose-gate",
+      "areas": {
+        "name": "lumiose-gate",
+        "id": 665,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "shalour-gate",
+      "areas": {
+        "name": "shalour-gate",
+        "id": 666,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "coumarine-gate",
+      "areas": {
+        "name": "coumarine-gate",
+        "id": 667,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "laverre-gate",
+      "areas": {
+        "name": "laverre-gate",
+        "id": 668,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "anistar-gate",
+      "areas": {
+        "name": "anistar-gate",
+        "id": 669,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "snowbelle-gate",
+      "areas": {
+        "name": "snowbelle-gate",
+        "id": 670,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "glittering-cave",
+      "areas": {
+        "name": "glittering-cave",
+        "id": 671,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "glittering-cave-unknown-area-303",
+            "encounterWheel": [
+              {
+                "pokemon": "machop",
+                "minLvl": 16,
+                "maxLvl": 16,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.037383177570093455
+              },
+              {
+                "pokemon": "onix",
+                "minLvl": 17,
+                "maxLvl": 17,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.037383177570093455
+              },
+              {
+                "pokemon": "cubone",
+                "minLvl": 15,
+                "maxLvl": 16,
+                "chanceFloor": 20,
+                "chanceCeil": 30,
+                "chance": 0.037383177570093455
+              },
+              {
+                "pokemon": "rhyhorn",
+                "minLvl": 17,
+                "maxLvl": 17,
+                "chanceFloor": 30,
+                "chanceCeil": 40,
+                "chance": 0.037383177570093455
+              },
+              {
+                "pokemon": "kangaskhan",
+                "minLvl": 17,
+                "maxLvl": 17,
+                "chanceFloor": 40,
+                "chanceCeil": 45,
+                "chance": 0.018691588785046728
+              },
+              {
+                "pokemon": "mawile",
+                "minLvl": 15,
+                "maxLvl": 16,
+                "chanceFloor": 45,
+                "chanceCeil": 47.5,
+                "chance": 0.009345794392523364
+              },
+              {
+                "pokemon": "lunatone",
+                "minLvl": 17,
+                "maxLvl": 17,
+                "chanceFloor": 47.5,
+                "chanceCeil": 57.5,
+                "chance": 0.037383177570093455
+              },
+              {
+                "pokemon": "solrock",
+                "minLvl": 17,
+                "maxLvl": 17,
+                "chanceFloor": 57.5,
+                "chanceCeil": 67.5,
+                "chance": 0.037383177570093455
+              },
+              {
+                "pokemon": "tyrunt",
+                "minLvl": 20,
+                "maxLvl": 20,
+                "chanceFloor": 67.5,
+                "chanceCeil": 167.5,
+                "chance": 0.37383177570093457
+              },
+              {
+                "pokemon": "amaura",
+                "minLvl": 20,
+                "maxLvl": 20,
+                "chanceFloor": 167.5,
+                "chanceCeil": 267.5,
+                "chance": 0.37383177570093457
+              }
+            ],
+            "avgLvl": 17.2
+          },
+          {
+            "name": "glittering-cave-unknown-area-304",
+            "encounterWheel": [
+              {
+                "pokemon": "onix",
+                "minLvl": 16,
+                "maxLvl": 16,
+                "chanceFloor": 0,
+                "chanceCeil": 11.666666666666666,
+                "chance": 0.2641509433962264
+              },
+              {
+                "pokemon": "dwebble",
+                "minLvl": 16,
+                "maxLvl": 16,
+                "chanceFloor": 11.666666666666666,
+                "chanceCeil": 44.166666666666664,
+                "chance": 0.7358490566037736
+              }
+            ],
+            "avgLvl": 16
+          }
+        ],
+        "minLvl": 15,
+        "maxLvl": 20
+      }
+    },
+    {
+      "name": "connecting-cave",
+      "areas": {
+        "name": "connecting-cave",
+        "id": 672,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "connecting-cave-area",
+            "encounterWheel": [
+              {
+                "pokemon": "zubat",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.3
+              },
+              {
+                "pokemon": "whismur",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.3
+              },
+              {
+                "pokemon": "meditite",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 20,
+                "chanceCeil": 30,
+                "chance": 0.3
+              },
+              {
+                "pokemon": "axew",
+                "minLvl": 14,
+                "maxLvl": 14,
+                "chanceFloor": 30,
+                "chanceCeil": 33.333333333333336,
+                "chance": 0.10000000000000006
+              }
+            ],
+            "avgLvl": 14
+          }
+        ],
+        "minLvl": 14,
+        "maxLvl": 14
+      }
+    },
+    {
+      "name": "zubat-roost",
+      "areas": {
+        "name": "zubat-roost",
+        "id": 673,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kalos-power-plant",
+      "areas": {
+        "name": "kalos-power-plant",
+        "id": 674,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "team-flare-secret-hq",
+      "areas": {
+        "name": "team-flare-secret-hq",
+        "id": 675,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "team-flare-secret-hq-area",
+            "encounterWheel": [
+              {
+                "pokemon": "tornadus-incarnate",
+                "minLvl": 40,
+                "maxLvl": 40,
+                "chanceFloor": 0,
+                "chanceCeil": 100,
+                "chance": 0.25
+              },
+              {
+                "pokemon": "thundurus-incarnate",
+                "minLvl": 40,
+                "maxLvl": 40,
+                "chanceFloor": 100,
+                "chanceCeil": 200,
+                "chance": 0.25
+              },
+              {
+                "pokemon": "xerneas",
+                "minLvl": 50,
+                "maxLvl": 50,
+                "chanceFloor": 200,
+                "chanceCeil": 300,
+                "chance": 0.25
+              },
+              {
+                "pokemon": "yveltal",
+                "minLvl": 50,
+                "maxLvl": 50,
+                "chanceFloor": 300,
+                "chanceCeil": 400,
+                "chance": 0.25
+              }
+            ],
+            "avgLvl": 45
+          }
+        ],
+        "minLvl": 40,
+        "maxLvl": 50
+      }
+    },
+    {
+      "name": "terminus-cave",
+      "areas": {
+        "name": "terminus-cave",
+        "id": 676,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "terminus-cave-1f",
+            "encounterWheel": [
+              {
+                "pokemon": "sandslash",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.16969696969696968
+              },
+              {
+                "pokemon": "graveler",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 10,
+                "chanceCeil": 26.428571428571427,
+                "chance": 0.27878787878787875
+              },
+              {
+                "pokemon": "shuckle",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 26.428571428571427,
+                "chanceCeil": 28.928571428571427,
+                "chance": 0.04242424242424242
+              },
+              {
+                "pokemon": "pupitar",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 28.928571428571427,
+                "chanceCeil": 38.92857142857143,
+                "chance": 0.16969696969696976
+              },
+              {
+                "pokemon": "lairon",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 38.92857142857143,
+                "chanceCeil": 48.92857142857143,
+                "chance": 0.16969696969696968
+              },
+              {
+                "pokemon": "durant",
+                "minLvl": 44,
+                "maxLvl": 45,
+                "chanceFloor": 48.92857142857143,
+                "chanceCeil": 58.92857142857143,
+                "chance": 0.16969696969696968
+              }
+            ],
+            "avgLvl": 45.25
+          },
+          {
+            "name": "terminus-cave-b1f-left",
+            "encounterWheel": [
+              {
+                "pokemon": "sandslash",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.16969696969696968
+              },
+              {
+                "pokemon": "graveler",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 10,
+                "chanceCeil": 26.428571428571427,
+                "chance": 0.27878787878787875
+              },
+              {
+                "pokemon": "shuckle",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 26.428571428571427,
+                "chanceCeil": 28.928571428571427,
+                "chance": 0.04242424242424242
+              },
+              {
+                "pokemon": "pupitar",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 28.928571428571427,
+                "chanceCeil": 38.92857142857143,
+                "chance": 0.16969696969696976
+              },
+              {
+                "pokemon": "lairon",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 38.92857142857143,
+                "chanceCeil": 48.92857142857143,
+                "chance": 0.16969696969696968
+              },
+              {
+                "pokemon": "durant",
+                "minLvl": 44,
+                "maxLvl": 45,
+                "chanceFloor": 48.92857142857143,
+                "chanceCeil": 58.92857142857143,
+                "chance": 0.16969696969696968
+              }
+            ],
+            "avgLvl": 45.25
+          },
+          {
+            "name": "terminus-cave-b1f-right",
+            "encounterWheel": [
+              {
+                "pokemon": "sandslash",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.16969696969696968
+              },
+              {
+                "pokemon": "graveler",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 10,
+                "chanceCeil": 26.428571428571427,
+                "chance": 0.27878787878787875
+              },
+              {
+                "pokemon": "shuckle",
+                "minLvl": 45,
+                "maxLvl": 45,
+                "chanceFloor": 26.428571428571427,
+                "chanceCeil": 28.928571428571427,
+                "chance": 0.04242424242424242
+              },
+              {
+                "pokemon": "pupitar",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 28.928571428571427,
+                "chanceCeil": 38.92857142857143,
+                "chance": 0.16969696969696976
+              },
+              {
+                "pokemon": "lairon",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 38.92857142857143,
+                "chanceCeil": 48.92857142857143,
+                "chance": 0.16969696969696968
+              },
+              {
+                "pokemon": "durant",
+                "minLvl": 44,
+                "maxLvl": 45,
+                "chanceFloor": 48.92857142857143,
+                "chanceCeil": 58.92857142857143,
+                "chance": 0.16969696969696968
+              }
+            ],
+            "avgLvl": 45.25
+          },
+          {
+            "name": "terminus-cave-b2f",
+            "encounterWheel": [
+              {
+                "pokemon": "sandslash",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.2222222222222222
+              },
+              {
+                "pokemon": "graveler",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 10,
+                "chanceCeil": 15,
+                "chance": 0.1111111111111111
+              },
+              {
+                "pokemon": "pupitar",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 15,
+                "chanceCeil": 25,
+                "chance": 0.2222222222222222
+              },
+              {
+                "pokemon": "lairon",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 25,
+                "chanceCeil": 35,
+                "chance": 0.2222222222222222
+              },
+              {
+                "pokemon": "durant",
+                "minLvl": 44,
+                "maxLvl": 45,
+                "chanceFloor": 35,
+                "chanceCeil": 45,
+                "chance": 0.2222222222222222
+              }
+            ],
+            "avgLvl": 45.3
+          },
+          {
+            "name": "terminus-cave-zygardes-chamber",
+            "encounterWheel": [
+              {
+                "pokemon": "sandslash",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.06896551724137931
+              },
+              {
+                "pokemon": "graveler",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 10,
+                "chanceCeil": 15,
+                "chance": 0.034482758620689655
+              },
+              {
+                "pokemon": "pupitar",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 15,
+                "chanceCeil": 25,
+                "chance": 0.06896551724137931
+              },
+              {
+                "pokemon": "lairon",
+                "minLvl": 45,
+                "maxLvl": 46,
+                "chanceFloor": 25,
+                "chanceCeil": 35,
+                "chance": 0.06896551724137931
+              },
+              {
+                "pokemon": "durant",
+                "minLvl": 44,
+                "maxLvl": 45,
+                "chanceFloor": 35,
+                "chanceCeil": 45,
+                "chance": 0.06896551724137931
+              },
+              {
+                "pokemon": "zygarde-50",
+                "minLvl": 70,
+                "maxLvl": 70,
+                "chanceFloor": 45,
+                "chanceCeil": 145,
+                "chance": 0.6896551724137931
+              }
+            ],
+            "avgLvl": 49.416666666666664
+          }
+        ],
+        "minLvl": 44,
+        "maxLvl": 70
+      }
+    },
+    {
+      "name": "lost-hotel",
+      "areas": {
+        "name": "lost-hotel",
+        "id": 677,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "lost-hotel-area",
+            "encounterWheel": [
+              {
+                "pokemon": "magneton",
+                "minLvl": 37,
+                "maxLvl": 38,
+                "chanceFloor": 0,
+                "chanceCeil": 10,
+                "chance": 0.2222222222222222
+              },
+              {
+                "pokemon": "electrode",
+                "minLvl": 37,
+                "maxLvl": 38,
+                "chanceFloor": 10,
+                "chanceCeil": 20,
+                "chance": 0.2222222222222222
+              },
+              {
+                "pokemon": "litwick",
+                "minLvl": 37,
+                "maxLvl": 38,
+                "chanceFloor": 20,
+                "chanceCeil": 30,
+                "chance": 0.2222222222222222
+              },
+              {
+                "pokemon": "pawniard",
+                "minLvl": 36,
+                "maxLvl": 37,
+                "chanceFloor": 30,
+                "chanceCeil": 40,
+                "chance": 0.2222222222222222
+              },
+              {
+                "pokemon": "klefki",
+                "minLvl": 37,
+                "maxLvl": 38,
+                "chanceFloor": 40,
+                "chanceCeil": 45,
+                "chance": 0.1111111111111111
+              }
+            ],
+            "avgLvl": 37.3
+          }
+        ],
+        "minLvl": 36,
+        "maxLvl": 38
+      }
+    },
+    {
+      "name": "chamber-of-emptiness",
+      "areas": {
+        "name": "chamber-of-emptiness",
+        "id": 678,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "sea-spirits-den",
+      "areas": {
+        "name": "sea-spirits-den",
+        "id": 679,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "sea-spirits-den-area",
+            "encounterWheel": [
+              {
+                "pokemon": "articuno",
+                "minLvl": 70,
+                "maxLvl": 70,
+                "chanceFloor": 0,
+                "chanceCeil": 100,
+                "chance": 0.3333333333333333
+              },
+              {
+                "pokemon": "zapdos",
+                "minLvl": 70,
+                "maxLvl": 70,
+                "chanceFloor": 100,
+                "chanceCeil": 200,
+                "chance": 0.3333333333333333
+              },
+              {
+                "pokemon": "moltres",
+                "minLvl": 70,
+                "maxLvl": 70,
+                "chanceFloor": 200,
+                "chanceCeil": 300,
+                "chance": 0.3333333333333333
+              }
+            ],
+            "avgLvl": 70
+          }
+        ],
+        "minLvl": 70,
+        "maxLvl": 70
+      }
+    },
+    {
+      "name": "friend-safari",
+      "areas": {
+        "name": "friend-safari",
+        "id": 680,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "blazing-chamber",
+      "areas": {
+        "name": "blazing-chamber",
+        "id": 681,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "flood-chamber",
+      "areas": {
+        "name": "flood-chamber",
+        "id": 682,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ironworks-chamber",
+      "areas": {
+        "name": "ironworks-chamber",
+        "id": 683,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "dragonmark-chamber",
+      "areas": {
+        "name": "dragonmark-chamber",
+        "id": 684,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "radiant-chamber",
+      "areas": {
+        "name": "radiant-chamber",
+        "id": 685,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "pokemon-league-gate",
+      "areas": {
+        "name": "pokemon-league-gate",
+        "id": 686,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "lumiose-station",
+      "areas": {
+        "name": "lumiose-station",
+        "id": 687,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "kiloude-station",
+      "areas": {
+        "name": "kiloude-station",
+        "id": 688,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "ambrette-aquarium",
+      "areas": {
+        "name": "ambrette-aquarium",
+        "id": 689,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [],
+        "minLvl": null,
+        "maxLvl": null
+      }
+    },
+    {
+      "name": "unknown-dungeon",
+      "areas": {
+        "name": "unknown-dungeon",
+        "id": 690,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "unknown-dungeon-area",
+            "encounterWheel": [
+              {
+                "pokemon": "mewtwo",
+                "minLvl": 70,
+                "maxLvl": 70,
+                "chanceFloor": 0,
+                "chanceCeil": 100,
+                "chance": 1
+              }
+            ],
+            "avgLvl": 70
+          }
+        ],
+        "minLvl": 70,
+        "maxLvl": 70
+      }
+    },
+    {
+      "name": "roaming-kalos",
+      "areas": {
+        "name": "roaming-kalos",
+        "id": 1056,
+        "region": {
+          "name": "kalos",
+          "url": "https://pokeapi.co/api/v2/region/6/"
+        },
+        "areas": [
+          {
+            "name": "roaming-kalos-area",
+            "encounterWheel": [
+              {
+                "pokemon": "articuno",
+                "minLvl": 70,
+                "maxLvl": 70,
+                "chanceFloor": 0,
+                "chanceCeil": 100,
+                "chance": 0.3333333333333333
+              },
+              {
+                "pokemon": "zapdos",
+                "minLvl": 70,
+                "maxLvl": 70,
+                "chanceFloor": 100,
+                "chanceCeil": 200,
+                "chance": 0.3333333333333333
+              },
+              {
+                "pokemon": "moltres",
+                "minLvl": 70,
+                "maxLvl": 70,
+                "chanceFloor": 200,
+                "chanceCeil": 300,
+                "chance": 0.3333333333333333
+              }
+            ],
+            "avgLvl": 70
+          }
+        ],
+        "minLvl": 70,
+        "maxLvl": 70
+      }
+    }
+  ]
+}
