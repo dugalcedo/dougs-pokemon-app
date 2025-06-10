@@ -1,10 +1,13 @@
 import { Router } from "express";
 import handle from "../util/handle.ts";
-import { Player } from "../models/_models.ts";
+import { Player, PlayerPokemon } from "../models/_models.ts";
 import { sequelize } from "../db/sequelize.ts";
+import type { UserData } from "../../types";
+import type { Request } from "express";
 import jwt from 'jsonwebtoken'
 import bcrypt from 'bcryptjs'
 import env from "../util/env.ts"
+import fs from 'fs'
 
 const playerRouter = Router()
 
@@ -58,17 +61,60 @@ playerRouter.put('/', handle(async (req, res) => {
     }
 }))
 
+const getPlayerDataFromRequest = async (req: Request): Promise<UserData> => {
+    if (!req.headers.authorization) throw {
+        status: 401,
+        message: "You need an authorization header."
+    }
+
+    const [authType, token] = req.headers.authorization.split(' ')
+
+    if (!authType || authType.toLowerCase() !== 'bearer') throw {
+        status: 401,
+        message: "Authorization header must be bearer."
+    }
+
+    if (!token) throw {
+        status: 401,
+        message: "Invalid token. Type was defined but token was not."
+    }
+
+    let parsed: any
+    try {
+        parsed = jwt.verify(token, env.JWT_SECRET)
+    } catch {
+        throw {
+            status: 401,
+            message: "Invalid token. Failed parsing."
+        }
+    }
+
+    const player = await Player.findByPk(parsed.id)
+
+    if (!player) throw {
+        status: 401,
+        message: "Invalid token. Failed finding player."
+    }
+
+    const pps = await PlayerPokemon.findAll({
+        where: { playerId: player.dataValues.id }
+    })
+
+    return {
+        ...player.dataValues,
+        pokemon: await Promise.all(pps.map(pp => pp.toUniquePokemon())),
+        regionEncounters: JSON.parse(fs.readFileSync(`cache/regions/${player.dataValues.region}.json`, 'utf-8'))
+    }
+}
+
 // CHECK TOKEN
 playerRouter.get('/checkToken', handle(async (req, res) => {
-    if (!req.user) throw {
-        status: 401,
-        message: "Invalid token."
-    }
+    const playerData = await getPlayerDataFromRequest(req)
 
     return {
         status: 200,
         message: "User data retreived",
-        data: req.user
+        data: playerData
     }
 }))
 

@@ -4,11 +4,13 @@
     import PokemonMeter from "./PokemonMeter.svelte";
 </script>
 
-{#if player.pokemon.length === 0}
+{#if !player.data}
+    ...
+{:else if player.data.pokemon.length === 0}
     ...
 {:else}
     <div class="players-pokemon">
-        {#each player.pokemon as p}
+        {#each player.data.pokemon as p}
             <div class="pokemon">
                 <PokemonImage {p} crop="small" />
                 <div class="info1">

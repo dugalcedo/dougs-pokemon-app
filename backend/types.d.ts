@@ -1,37 +1,34 @@
-declare namespace Express {
+import { UniquePokemon } from "./poketypes.ts"
 
-    type RegionEncounters = {
+
+export type RegionEncounters = {
+    name: string,
+    locations: {
         name: string,
-        locations: {
+        id: number,
+        region: { name: string, url: string },
+        avgLvl: number,
+        areas: {
             name: string,
-            id: number,
-            region: { name: string, url: string },
             avgLvl: number,
-            areas: {
-                name: string,
-                avgLvl: number,
-                encounterWheel: {
-                    pokemon: string,
-                    minLvl: number,
-                    maxLvl: number,
-                    chanceFloor: number,
-                    chanceCeil: number,
-                    chance: number
-                }[]
+            encounterWheel: {
+                pokemon: string,
+                minLvl: number,
+                maxLvl: number,
+                chanceFloor: number,
+                chanceCeil: number,
+                chance: number
             }[]
         }[]
-    }
-
-    type UserData = {
-        id: number
-        name: string
-        password: string
-        pokemon: number[]
-        region: string
-        regionEncounters?: RegionEncounters
-    }
-
-    interface Request {
-        user?: UserData
-    }
+    }[]
 }
+
+export type UserData = {
+    id: number
+    name: string
+    password: string
+    pokemon: UniquePokemon[]
+    region: string
+    regionEncounters?: RegionEncounters
+}
+

@@ -4,14 +4,12 @@ import handle from './util/handle.ts'
 import cors from 'cors'
 import seed from './scripts/seed.ts'
 import { syncDB, testDB } from './db/sequelize.ts'
-import { checkToken } from './middleware/checkToken.ts'
 
 const app = express()
 
 // middleware
 app.use(cors())
 app.use(express.json({ type: '*/*' }))
-app.use(checkToken)
 
 // logger
 app.use((req, res, next) => {

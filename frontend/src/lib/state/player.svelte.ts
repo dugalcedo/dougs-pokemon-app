@@ -1,17 +1,14 @@
 // This state keeps track of the player data
 
-import { type PlayerData, API_ROOT, getCachedPokemon, getStarterMoves, getCachedMove } from "../backend.js"
-import type { Pokemon, PlayerPokemon } from "../pokemonTypes.js"
-import { getPokemonMaxHp, getPokemonStat } from "../util.js"
+import { type PlayerData, API_ROOT, getStarterMoves } from "../backend.js"
+import { type UniquePokemon } from "../poketypes.js"
 
 type PlayerState = {
     data: PlayerData | null
-    pokemon: Pokemon[]
 }
 
 export const player = $state<PlayerState>({
-    data: null,
-    pokemon: []
+    data: null
 })
 
 
@@ -42,29 +39,10 @@ export const loadPlayerData = async () => {
         }
 
         const data = await res.json()
+
+        console.log(`DATA:`, data)
+
         player.data = data.data
-        player.pokemon = await Promise.all(data.data.pokemon.map(async (pp: PlayerPokemon) => {
-            const pokemon = await getCachedPokemon(pp.id)
-
-            const p = {
-                ...pokemon,
-                ...pp
-            }
-            
-            // stats
-            p.maxHp = getPokemonMaxHp(p as unknown as Pokemon)
-            p.speed = getPokemonStat(p as unknown as Pokemon, 'speed')
-            p.defense = getPokemonStat(p as unknown as Pokemon, 'defense')
-            p.attack = getPokemonStat(p as unknown as Pokemon, 'attack')
-
-            // moves
-            p.fullMoves = await Promise.all(pp.moves.map(id => {
-                return getCachedMove(id)
-            }))
-
-
-            return p
-        }))
 
         console.log(`Loaded player data:`, data)
         console.log(`Player:`, $state.snapshot(player))
@@ -76,32 +54,9 @@ export const loadPlayerData = async () => {
 }
 
 export const syncPlayer = async () => {
-    const res = await fetch(API_ROOT + "/api/player/sync", {
-        method: 'PUT',
-        body: JSON.stringify({
-            ...$state.snapshot(player.data),
-            pokemon: player.pokemon.map(p => p.id)
-        })
-    })
 
-    const data = await res.json()
-
-    console.log("syncPlayer result:", data)
-
-    return data
 }
 
-export const startGame = async (region: string, pokemon: Pokemon) => {
-    player.data!.hasStarted = true
-    player.data!.region = region
-    
-    player.pokemon.push({
-        ...pokemon,
-        id: pokemon.id,
-        level: 5,
-        hp: 1,
-        exp: 0,
-        fullMoves: await getStarterMoves(pokemon)
-    })
-    syncPlayer()
+export const startGame = async () => {
+
 }

@@ -1,5 +1,6 @@
 export const API_ROOT = "http://localhost:6392"
 import { type Pokemon, type RegionEncounters, type Encounter, type FullMove } from "./pokemonTypes.js"
+import type { UniquePokemon } from "./poketypes.js"
 import { randRange, getPokemonMaxHp, getIdFromURL, shuffle } from "./util.js"
 
 export type PlayerData = {
@@ -9,6 +10,7 @@ export type PlayerData = {
     hasStarted: boolean
     region: string
     regionEncounters: RegionEncounters
+    pokemon: UniquePokemon[]
 }
 
 export const pokeAPIFetch = (path: string) => {
