@@ -1,8 +1,9 @@
 import { RequestHandler } from "express"
-import { Player, PlayerPokemon } from "../models/_models.ts"
+import { Player } from "../models/_models.ts"
 import jwt from 'jsonwebtoken'
 import env from "../util/env.ts"
 import fs from 'fs'
+import { tryCache } from "../util/cache.ts"
 
 export const checkToken: RequestHandler = async (req, _res, next) => {
     console.log("Checking token...")
@@ -62,8 +63,12 @@ export const checkToken: RequestHandler = async (req, _res, next) => {
         req.user = player.dataValues
 
         // get player pokemon
-        const playerPokemon = await PlayerPokemon.findAll({ where: { playerId: req.user!.id } })
-        req.user!.pokemon = playerPokemon.map(pp => pp.dataValues)
+        try {
+            req.user!.pokemon = JSON.parse(req.user!.pokemon.toString())
+        } catch (error) {
+            console.log(`Failed parsing JSON of req.user.pokemon`)
+            req.user!.pokemon = []
+        }
 
         // get player region encounters
         if (req.user!.region) {

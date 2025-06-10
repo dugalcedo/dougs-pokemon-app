@@ -1,11 +1,12 @@
 // This state keeps track of the player data
 
-import { type PlayerData, API_ROOT, getCachedPokemon } from "../backend.js"
+import { type PlayerData, API_ROOT, getCachedPokemon, getStarterMoves, getCachedMove } from "../backend.js"
 import type { Pokemon, PlayerPokemon } from "../pokemonTypes.js"
+import { getPokemonMaxHp, getPokemonStat } from "../util.js"
 
 type PlayerState = {
     data: PlayerData | null
-    pokemon: PlayerPokemon[]
+    pokemon: Pokemon[]
 }
 
 export const player = $state<PlayerState>({
@@ -43,8 +44,26 @@ export const loadPlayerData = async () => {
         const data = await res.json()
         player.data = data.data
         player.pokemon = await Promise.all(data.data.pokemon.map(async (pp: PlayerPokemon) => {
-            const pokemon = await getCachedPokemon(pp.pokemonId)
-            return {...pokemon, ...pp}
+            const pokemon = await getCachedPokemon(pp.id)
+
+            const p = {
+                ...pokemon,
+                ...pp
+            }
+            
+            // stats
+            p.maxHp = getPokemonMaxHp(p as unknown as Pokemon)
+            p.speed = getPokemonStat(p as unknown as Pokemon, 'speed')
+            p.defense = getPokemonStat(p as unknown as Pokemon, 'defense')
+            p.attack = getPokemonStat(p as unknown as Pokemon, 'attack')
+
+            // moves
+            p.fullMoves = await Promise.all(pp.moves.map(id => {
+                return getCachedMove(id)
+            }))
+
+
+            return p
         }))
 
         console.log(`Loaded player data:`, data)
@@ -72,17 +91,17 @@ export const syncPlayer = async () => {
     return data
 }
 
-export const startGame = (region: string, pokemon: Pokemon) => {
+export const startGame = async (region: string, pokemon: Pokemon) => {
     player.data!.hasStarted = true
     player.data!.region = region
+    
     player.pokemon.push({
         ...pokemon,
-        pokemonId: pokemon.id,
-        playerId: player.data!.id,
+        id: pokemon.id,
         level: 5,
         hp: 1,
         exp: 0,
-        moves: []
+        fullMoves: await getStarterMoves(pokemon)
     })
     syncPlayer()
 }

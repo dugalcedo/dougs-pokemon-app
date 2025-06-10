@@ -120,6 +120,7 @@ export type Pokemon = {
     is_default: boolean,
     location_area_encounters: string,
     moves: PokemonMove[],
+    fullMoves: FullMove[],
     name: string,
     order: number,
     species: {
@@ -129,12 +130,18 @@ export type Pokemon = {
     sprites: PokemonSprites,
     stats: PokemonStat[],
     types: PokemonType[],
-    weight: number
+    weight: number,
+    hp: number,
+    level: number,
+    exp: number,
+    maxHp: number,
+    speed: number,
+    defense: number,
+    attack: number,
 }
 
-export type PlayerPokemon = Pokemon & {
-    pokemonId: number,
-    playerId: number,
+export type PlayerPokemon = {
+    id: number,
     level: number,
     exp: number,
     hp: number,
@@ -163,4 +170,34 @@ export type RegionEncounters = {
             encounterWheel: Encounter[]
         }[]
     }[]
+}
+
+export type FullMove = {
+    accuracy: number
+    damage_class: {
+        name: string,
+        url: string
+    }
+    effect_chance: number
+    effect_entries: {
+        effect: string
+    }[]
+    id: number,
+    learned_by_pokemon: {
+        name: string,
+        url: string
+    }[]
+    name: string
+    power: null | number
+    stat_changes: {
+        change: number,
+        stat: {
+            name: string,
+            url: string
+        }
+    }[]
+    type: {
+        name: string,
+        url: string
+    }
 }

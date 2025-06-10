@@ -1,6 +1,6 @@
 import { Router } from "express";
 import handle from "../util/handle.ts";
-import { Player, PlayerPokemon } from "../models/_models.ts";
+import { Player } from "../models/_models.ts";
 import { sequelize } from "../db/sequelize.ts";
 import jwt from 'jsonwebtoken'
 import bcrypt from 'bcryptjs'
@@ -82,7 +82,7 @@ playerRouter.put('/sync', handle(async (req, res) => {
         message: "Player not found"
     }
 
-    const result = await player.sync(req.body, req.body.pokemon)
+    const result = await player.sync(req.body)
     
     return result
 }))

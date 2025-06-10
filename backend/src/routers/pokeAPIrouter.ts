@@ -1,6 +1,6 @@
 import { Router } from "express";
 import handle from "../util/handle.ts";
-import { cache, getCached } from "../util/cache.ts";
+import { cache, getCached, tryCache } from "../util/cache.ts";
 import env from "../util/env.ts";
 import fs from 'fs'
 
@@ -91,6 +91,20 @@ pokeAPI.get("/encounters/:region", handle(async (req) => {
         status: 200,
         message: "Encounters retreived",
         data: regionEncounters
+    }
+}))
+
+pokeAPI.get("/move/:moveId", handle(async (req) => {
+    const move = await tryCache(`move_${req.params.moveId}`, async () => {
+        const res = await fetch(`https://pokeapi.co/api/v2/move/${req.params.moveId}`)
+        const data = await res.json()
+        return data
+    })
+
+    return {
+        status: 200,
+        message: "Move retreived",
+        data: move
     }
 }))
 

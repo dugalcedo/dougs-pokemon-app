@@ -1,37 +1,18 @@
 import { Model, DataTypes as DT } from "sequelize"
 import { sequelize } from "../db/sequelize.ts"
+import { tryCache } from "../util/cache.ts"
 import bcrypt from "bcryptjs"
 
 class PlayerModel extends Model {
-    async sync(data: any, ids: number[]) {
+    async sync(data: any) {
         const transaction = await sequelize.transaction()
-        const PlayerPokemon = sequelize.model('PlayerPokemon')
+
         try {
             // update player data
             await this.update({
                 hasStarted: data.hasStarted
             }, { transaction })
 
-            // update player pokemon
-            const pps = await PlayerPokemon.findAll({ where: { playerId: data.id } })
-
-            // delete removed
-            for (const pp of pps) {
-                if (!ids.includes(pp.dataValues.id)) {
-                    await pp.destroy({ transaction })
-                }
-            }
-
-            // add new
-            const oldPokemonIds = pps.map(pp => pp.dataValues.id)
-            for (const pokemonId of ids) {
-                if (!oldPokemonIds.includes(pokemonId)) {
-                    await PlayerPokemon.create({
-                        playerId: data.id,
-                        pokemonId: pokemonId
-                    }, { transaction })
-                }
-            }
 
             await transaction.commit()
             return {
@@ -73,6 +54,11 @@ PlayerModel.init({
     region: {
         type: DT.STRING,
         allowNull: true
+    },
+    pokemon: {
+        type: DT.STRING,
+        allowNull: false,
+        defaultValue: "[]"
     }
 }, {
     sequelize,

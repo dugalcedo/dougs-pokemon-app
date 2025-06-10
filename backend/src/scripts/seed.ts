@@ -1,13 +1,23 @@
-import { Player, PlayerPokemon } from "../models/_models.ts";
+import { Player } from "../models/_models.ts";
 
 const players = [
-    { name: "dug", password: "dug1234", hasStarted: true, region: "johto" },
+    { 
+        name: "dug", 
+        password: "dug1234", 
+        hasStarted: true, 
+        region: "johto",
+        pokemon: `[
+            { 
+                "id": 158,
+                "moves": ["10"],
+                "hp": 1,
+                "level": 5,
+                "exp": 0
+            }
+        ]`
+    },
     { name: "sundraz", password: "beanbrain" },
     { name: "jordan", password: "dreamie" }
-]
-
-const playerPokemon = [
-    { playerId: 1, pokemonId: 158 }
 ]
 
 export default async function seed() {
@@ -25,14 +35,4 @@ export default async function seed() {
     console.log("Finished seeding players.")
 
 
-    console.log("Seeding player pokemon...")
-    for (const pp of playerPokemon) {
-        try {
-            await PlayerPokemon.create(pp)
-        } catch (error) {
-            console.log(`Failed seeding:`, pp)
-            console.log((error as any)?.message)
-        }
-    }
-    console.log("Finished seeding player pokemon.")
 }

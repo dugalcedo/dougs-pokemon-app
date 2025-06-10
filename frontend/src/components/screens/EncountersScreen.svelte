@@ -13,7 +13,7 @@
 
     async function handleEncounter(enc: Encounter, p: Pokemon) {
         playPokemonSound(p)
-        console.log(view.encounteredPokemon)
+        console.log("ENCOUNTER:", $state.snapshot(view.encounteredPokemon))
     }
 
 </script>

@@ -2,7 +2,8 @@
     import { type Encounter, type Pokemon } from "../../lib/pokemonTypes.js";
     import { onMount } from "svelte";
     import { view } from "../../lib/state/view.svelte.js";
-    import { getCachedPokemon } from "../../lib/backend.js";
+    import { getCachedPokemon, instantiateEncounteredPokemon } from "../../lib/backend.js";
+    import { getPokemonMaxHp, getPokemonStat } from "../../lib/util.js";
 
     const {
         wheel,
@@ -98,7 +99,12 @@
         }
 
         view.encountered = found
-        const p = await getCachedPokemon(found.pokemon)
+        const p = await instantiateEncounteredPokemon(found)
+        p.maxHp = getPokemonMaxHp(p)
+        p.speed = getPokemonStat(p, 'speed')
+        p.attack = getPokemonStat(p, 'attack')
+        p.defense = getPokemonStat(p, 'defense')
+        p.hp = 1
         view.encounteredPokemon = p
         onEncounter(found, p)
     }
