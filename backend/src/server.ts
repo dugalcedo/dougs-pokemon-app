@@ -34,6 +34,8 @@ import pokeAPI from './routers/pokeAPIrouter.ts'
 app.use("/pokeapi", pokeAPI)
 import playerRouter from './routers/playerRouter.ts'
 app.use("/api/player", playerRouter)
+import encounterRouter from './routers/encounterRouter.ts'
+app.use("/api/encounter", encounterRouter)
 
 // 404 route
 app.use(/(.+)/, handle(() => {

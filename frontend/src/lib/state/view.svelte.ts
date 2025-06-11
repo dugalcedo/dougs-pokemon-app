@@ -24,6 +24,7 @@ import FightControls from "../../components/controls/FightControls.svelte"
 
 import { type Component } from "svelte"
 import type { Encounter, Pokemon } from "../pokemonTypes.js"
+import type { UniquePokemon } from "../poketypes.js"
 
 export type ScreenName = (
     | 'start'
@@ -55,8 +56,11 @@ type ViewState = {
     location: string | null
     area: string | null
     encountered: Encounter | null
-    encounteredPokemon: Pokemon | null
+    encounteredPokemon: UniquePokemon | null
     fightType: 'exp' | 'catch' | null
+    turnName: 'self' | 'opponent' | null
+    messageLog: string[]
+    turnPokemon: UniquePokemon | null
 }
 
 export const screens: Record<ScreenName, Component> = {
@@ -93,7 +97,10 @@ export const view = $state<ViewState>({
     area: null,
     encountered: null,
     encounteredPokemon: null,
-    fightType: null
+    fightType: null,
+    turnName: null,
+    turnPokemon: null,
+    messageLog: []
 })
 
 export const setView = (options: {

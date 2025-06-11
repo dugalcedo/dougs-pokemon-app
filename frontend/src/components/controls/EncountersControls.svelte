@@ -4,10 +4,7 @@
 </script>
 
 {#if view.encountered}
-    <Control>
-        Fight for exp
-    </Control>
-    <Control>
-        Fight for catch
+    <Control screen="fight" controls="fight">
+        Fight
     </Control>
 {/if}

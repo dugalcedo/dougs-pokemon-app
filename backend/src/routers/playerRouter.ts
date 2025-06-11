@@ -100,10 +100,13 @@ const getPlayerDataFromRequest = async (req: Request): Promise<UserData> => {
         where: { playerId: player.dataValues.id }
     })
 
+    const regionEncounters = JSON.parse(fs.readFileSync(`cache/encounters.json`, 'utf-8'))[player.dataValues.region]
+    regionEncounters.locations.sort((a: any, b: any) => a.avgLvl - b.avgLvl)
+
     return {
         ...player.dataValues,
         pokemon: await Promise.all(pps.map(pp => pp.toUniquePokemon())),
-        regionEncounters: JSON.parse(fs.readFileSync(`cache/regions/${player.dataValues.region}.json`, 'utf-8'))
+        regionEncounters: regionEncounters
     }
 }
 

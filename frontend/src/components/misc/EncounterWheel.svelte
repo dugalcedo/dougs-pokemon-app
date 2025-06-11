@@ -2,15 +2,16 @@
     import { type Encounter, type Pokemon } from "../../lib/pokemonTypes.js";
     import { onMount } from "svelte";
     import { view } from "../../lib/state/view.svelte.js";
-    import { getCachedPokemon, instantiateEncounteredPokemon } from "../../lib/backend.js";
+    import { instantiateEncounteredPokemon } from "../../lib/backend.js";
     import { getPokemonMaxHp, getPokemonStat } from "../../lib/util.js";
+    import type { UniquePokemon } from "../../lib/poketypes.js";
 
     const {
         wheel,
         onEncounter
     }: {
         wheel: Encounter[]
-        onEncounter: (enc: Encounter, p: Pokemon) => void
+        onEncounter: (enc: Encounter, p: UniquePokemon) => void
     } = $props()
 
     // correct chance values to percents
@@ -37,46 +38,22 @@
 
         // Interval
         arrowMoveInterval = setInterval(() => {
-            // Check if slow and apply brakes
-            if (!brakesOn && arrowMoveIntervalMs > 9) {
-                applyBrakes()
-                clearTimeout(arrowMoveInterval)
+            if (arrowMoveIntervalMs > 100) {
+                clearInterval(arrowMoveInterval)
+                doEncounter()
                 return
             }
 
+
             if (arrowPercent >= 100 || arrowPercent <= 0) {
                 arrowDirection *= -1
-                arrowMoveIntervalMs += 1
                 flickArrow()
             }
 
-            arrowPercent += arrowDirection
+            arrowPercent += arrowDirection*5
+            arrowMoveIntervalMs += 2
 
         }, arrowMoveIntervalMs)
-    }
-
-
-    function applyBrakes() {
-        function brakeFrame() {
-            setTimeout(() => {
-                if (arrowMoveIntervalMs > 50) {
-                    doEncounter()
-                    return
-                }
-
-                if (arrowPercent >= 100 || arrowPercent <= 0) {
-                    arrowDirection *= -1
-                    arrowMoveIntervalMs += 1
-                }
-
-                arrowPercent += arrowDirection
-                arrowMoveIntervalMs += 0.51
-                
-                brakeFrame()
-            }, arrowMoveIntervalMs);
-        }
-
-        brakeFrame()
     }
 
     async function doEncounter() {
@@ -100,11 +77,7 @@
 
         view.encountered = found
         const p = await instantiateEncounteredPokemon(found)
-        p.maxHp = getPokemonMaxHp(p)
-        p.speed = getPokemonStat(p, 'speed')
-        p.attack = getPokemonStat(p, 'attack')
-        p.defense = getPokemonStat(p, 'defense')
-        p.hp = 1
+        
         view.encounteredPokemon = p
         onEncounter(found, p)
     }

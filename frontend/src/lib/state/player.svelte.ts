@@ -43,9 +43,6 @@ export const loadPlayerData = async () => {
         console.log(`DATA:`, data)
 
         player.data = data.data
-
-        console.log(`Loaded player data:`, data)
-        console.log(`Player:`, $state.snapshot(player))
         
     } catch (error) {
         console.log(`Error when trying to load player data.`)

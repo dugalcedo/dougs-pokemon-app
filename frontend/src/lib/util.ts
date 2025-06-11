@@ -1,8 +1,9 @@
 import type { Pokemon } from "./pokemonTypes.js"
+import type { UniquePokemon } from "./poketypes.js"
 
-export function playPokemonSound(p: Pokemon) {
+export function playPokemonSound(p: UniquePokemon) {
     const audioEl = document.createElement('audio')
-    audioEl.src = p.cries.latest
+    audioEl.src = p.cry
     audioEl.play()
 }
 

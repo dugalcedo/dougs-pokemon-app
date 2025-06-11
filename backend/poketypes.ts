@@ -1,13 +1,18 @@
 export interface PokeAPIDTO {
     name: string
     id: number
-    allMoves: string[]
+    allMoves: DTOMove[]
     types: string[]
     cry: string
     sprites: {
         front: string
         back: string
     }
+}
+
+export type DTOMove = {
+    name: string,
+    level_learned: number
 }
 
 export type Effect = {
@@ -30,13 +35,20 @@ export interface UniquePokemon extends PokeAPIDTO {
     exp: number
 }
 
+import tryFetch from "./src/util/tryFetch.ts"
+
 export async function fetchPokeAPIDTO(id: number | string): Promise<PokeAPIDTO> {
-    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
-    const p = await res.json()
+    const p = await tryFetch(5, () => fetch(`https://pokeapi.co/api/v2/pokemon/${id}`))
     return {
         name: p.name,
         id: p.id,
-        allMoves: p.moves.map((m: any) => m.move.name),
+        allMoves: p.moves.map((m: any) => {
+            const move: DTOMove = {
+                name: m.move.name,
+                level_learned: m.version_group_details[0].level_learned_at
+            }
+            return move
+        }),
         types: p.types.map((t: any) => t.type.name),
         cry: p.cries.latest,
         sprites: {
@@ -47,8 +59,7 @@ export async function fetchPokeAPIDTO(id: number | string): Promise<PokeAPIDTO> 
 }
 
 export async function fetchMove(name: string): Promise<Move> {
-    const res = await fetch(`https://pokeapi.co/api/v2/move/${name}`)
-    const m = await res.json()
+    const m = await tryFetch(5, () => fetch(`https://pokeapi.co/api/v2/move/${name}`))
     const effects: Effect[] = []
 
     m.stat_changes.forEach((sc: any) => {

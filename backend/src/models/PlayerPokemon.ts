@@ -5,7 +5,9 @@ import { fetchPokeAPIDTO, fetchMove, type UniquePokemon } from '../../poketypes.
 class PlayerPokemonModel extends Model {
     async toUniquePokemon(): Promise<UniquePokemon> {
         const dto = await fetchPokeAPIDTO(this.dataValues.pokemonId)
-        const knownMoves = await Promise.all(this.dataValues.moveNames.split(',').map((mn: string) => fetchMove(mn)))
+        const knownMoves = await Promise.all(this.dataValues.moveNames.split(',').map((mn: string) => {
+            return fetchMove(mn)
+        }))
         return {
             ...dto,
             level: this.dataValues.level,

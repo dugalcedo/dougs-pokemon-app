@@ -4,7 +4,6 @@
     import { goToEncounters } from "../../lib/state/view.svelte.js";
 
     let location = $derived(player.data?.regionEncounters.locations.find(loc => loc.name === view.location))
-    console.log("location:", location)
 </script>
 
 {#if !player.data}

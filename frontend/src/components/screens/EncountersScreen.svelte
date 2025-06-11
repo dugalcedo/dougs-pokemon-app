@@ -6,12 +6,13 @@
     import EncounterWheel from "../misc/EncounterWheel.svelte";
     import type { Encounter, Pokemon } from "../../lib/pokemonTypes.js";
     import PokemonImage from "../pokemon/PokemonImage.svelte";
+    import type { UniquePokemon } from "../../lib/poketypes.js";
 
     const location = $derived(player.data?.regionEncounters.locations.find(loc => loc.name === view.location))
     const area = $derived(location?.areas.find(ar => ar.name === view.area))
     const wheel = $derived(area?.encounterWheel)
 
-    async function handleEncounter(enc: Encounter, p: Pokemon) {
+    async function handleEncounter(enc: Encounter, p: UniquePokemon) {
         playPokemonSound(p)
         console.log("ENCOUNTER:", $state.snapshot(view.encounteredPokemon))
     }
