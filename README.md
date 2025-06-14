@@ -31,4 +31,4 @@ THIS_ROOT="http://localhost:6392"
 
 3. cd into the main folder and run `npm run install-all`
 
-4. To start, run `npm run dev` then open localhost:6393 in your browser.
+4. To start, run `npm run dev` then open localhost:6393 in your browser. (6392 is the backend and 6392 is the frontend.)
