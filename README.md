@@ -20,6 +20,15 @@ You must have node installed.
 
 1. Clone the repo
 
-2. cd into the main folder and run `npm run install-all`
+2. Create a .env file in the folder called "backend" with the following variables:
 
-3. To start, run `npm run dev` then open localhost:6393 in your browser.
+```env
+PORT=6392
+JWT_SECRET="anything"
+DEV="false"
+THIS_ROOT="http://localhost:6392"
+```
+
+3. cd into the main folder and run `npm run install-all`
+
+4. To start, run `npm run dev` then open localhost:6393 in your browser.
