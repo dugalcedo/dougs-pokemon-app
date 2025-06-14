@@ -23,7 +23,7 @@
     async function loadRegions() {
         const res = await pokeAPIFetch('/regionsAndStarters')
         regions = (await res.json()).data
-        console.log(regions)
+        console.log("regions:", regions)
     }
 
     loadRegions()
@@ -59,8 +59,8 @@
             </tbody>
         </table>
     </div>
-    <button onclick={() => {
-        startGame(region.name, currentPokemon)
+    <button onclick={async () => {
+        await startGame(region.name, currentPokemon)
         setView({ screen: 'dashboard', controls: 'dashboard' })
     }}>
         Start game in {region.name} with {currentPokemon.name}

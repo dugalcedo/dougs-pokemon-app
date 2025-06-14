@@ -1,17 +1,16 @@
 <script lang="ts">
-    import { type Pokemon, pokemonTypeToColor } from "../../lib/pokemonTypes.js";
+    import { pokemonTypeToColor } from "../../lib/pokemonTypes.js";
+    import { type UniquePokemon } from "../../lib/poketypes.js";
 
     const {
         p,
     } : {
-        p: Pokemon,
+        p: UniquePokemon,
     } = $props()
-
-    const types = $derived(p.types.map(t => t.type.name))
 
 </script>
 
-{#each types as type (type)}
+{#each p.types as type (type)}
 {@const color = pokemonTypeToColor(type)}
     <span class="pokemon-type-badge" style="
         background-color: {color};

@@ -5,9 +5,14 @@
 
   import { onMount } from "svelte";
   import { loadPlayerData } from "./lib/state/player.svelte.js";
+  import { view } from "./lib/state/view.svelte.js";
 
   onMount(async () => {
     await loadPlayerData()
+  })
+
+  $effect(() => {
+    console.log("SCREEN:", view.screenName)
   })
   
 </script>

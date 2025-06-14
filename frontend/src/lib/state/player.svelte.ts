@@ -1,6 +1,6 @@
 // This state keeps track of the player data
 
-import { type PlayerData, API_ROOT, getStarterMoves } from "../backend.js"
+import { type PlayerData, API_ROOT } from "../backend.js"
 import { type UniquePokemon } from "../poketypes.js"
 
 type PlayerState = {
@@ -52,8 +52,26 @@ export const loadPlayerData = async () => {
 
 export const syncPlayer = async () => {
 
+    const res = await fetch(API_ROOT + "/api/player/sync", {
+        method: "PUT",
+        body: JSON.stringify($state.snapshot(player.data||{}))
+    })
+
+    if (!res.ok) {
+        return false
+    }
+
+    return true
 }
 
-export const startGame = async () => {
-
+export const startGame = async (regionName: string, p: UniquePokemon) => {
+    console.log("PLAYER DATA", $state.snapshot(player.data))
+    if (typeof player.data!.pokemon === 'string') player.data!.pokemon = []
+    player.data!.region = regionName
+    player.data!.hasStarted = true
+    if (!player.data!.pokemon) player.data!.pokemon = []
+    player.data!.pokemon.push(p)
+    const success = await syncPlayer()
+    window.location.reload()
+    return success
 }

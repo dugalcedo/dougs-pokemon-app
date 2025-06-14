@@ -14,6 +14,10 @@
 
     messages.push(`A wild ${opponent.name} appeared! Choose a move.`)
 
+    $effect(() => {
+        console.log("MESSAGE LOG", $state.snapshot(view.messageLog))
+    })
+
 </script>
 
 <div class="arena">

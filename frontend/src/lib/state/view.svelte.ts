@@ -153,3 +153,7 @@ export const startFight = (fightType: 'exp' | 'catch') => {
     view.screenName = 'fight'
     view.controlsName = 'fight'
 }
+
+export const displayBattleMessages = (messages: string[]) => {
+    view.messageLog.push(...messages)
+}

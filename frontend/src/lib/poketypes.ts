@@ -21,6 +21,7 @@ export type Move = {
     power: null | number
     accuracy: number
     effects: Effect[]
+    type: string
 }
 
 export interface UniquePokemon extends PokeAPIDTO {

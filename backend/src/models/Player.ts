@@ -10,8 +10,31 @@ class PlayerModel extends Model {
         try {
             // update player data
             await this.update({
-                hasStarted: data.hasStarted
+                hasStarted: data.hasStarted,
+                region: data.region
             }, { transaction })
+
+            // update pokemon
+            const PlayerPokemon = sequelize.model('PlayerPokemon')
+            // const currentlyOwnedPokemon = await PlayerPokemon.findAll({ where: { playerId: this.dataValues.id }, raw: true })
+
+            // for (const cop of currentlyOwnedPokemon) {
+
+            // }
+
+            // UNSAFE UPDATE POKEMON, temporary, may add duplicates
+            for (const p of data.pokemon) {
+                await PlayerPokemon.create({
+                    ...p,
+                    id: undefined,
+                    pokemonId: p.id,   
+                    playerId: this.dataValues.id,
+                    level: p.level || 5,
+                    hp: p.hp || 1,
+                    exp: p.exp || 0,
+                    moveNames: 'tackle,leer'
+                }, { transaction })
+            }
 
 
             await transaction.commit()
@@ -21,6 +44,7 @@ class PlayerModel extends Model {
             }
 
         } catch (error) {
+            console.log(error)
             await transaction.rollback()
             return {
                 status: 500,

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { type Pokemon } from "../../lib/pokemonTypes.js";
+    import { type UniquePokemon } from "../../lib/poketypes.js";
     import PokemonImage from "./PokemonImage.svelte";
 
     const {
@@ -7,10 +7,12 @@
         size,
         onclick = () => {}
     } : {
-        p: Pokemon,
+        p: UniquePokemon,
         size: 'small' | 'medium' | 'large',
-        onclick?: (e: MouseEvent, p: Pokemon) => void
+        onclick?: (e: MouseEvent, p: UniquePokemon) => void
     } = $props()
+
+    console.log("p:", $state.snapshot(p))
 
 </script>
 

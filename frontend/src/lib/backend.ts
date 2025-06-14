@@ -24,6 +24,6 @@ export const instantiateEncounteredPokemon = async (enc: Encounter): Promise<Uni
 }
 
 export const getStarterMoves = async (p: Pokemon) => {
-
+    
 }
 

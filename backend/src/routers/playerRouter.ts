@@ -41,14 +41,14 @@ playerRouter.put('/', handle(async (req, res) => {
 
     if (!player) throw {
         status: 401,
-        message: "Invalid credentials"
+        message: "Invalid credentials. User not found."
     }
 
     const validPwd = await bcrypt.compare(req.body.password, player.dataValues.password)
 
     if (!validPwd) throw {
         status: 401,
-        message: "Invalid credentials"
+        message: "Invalid credentials. Password incorrect."
     }
 
     return {
@@ -100,8 +100,9 @@ const getPlayerDataFromRequest = async (req: Request): Promise<UserData> => {
         where: { playerId: player.dataValues.id }
     })
 
+
     const regionEncounters = JSON.parse(fs.readFileSync(`cache/encounters.json`, 'utf-8'))[player.dataValues.region]
-    regionEncounters.locations.sort((a: any, b: any) => a.avgLvl - b.avgLvl)
+    regionEncounters?.locations?.sort((a: any, b: any) => a.avgLvl - b.avgLvl)
 
     return {
         ...player.dataValues,
@@ -134,6 +135,15 @@ playerRouter.put('/sync', handle(async (req, res) => {
     const result = await player.sync(req.body)
     
     return result
+}))
+
+// GET ALL
+playerRouter.get('/all', handle(async (req, res) => {
+    return {
+        status: 200,
+        data: await Player.findAll(),
+        message: "Users retreived"
+    }
 }))
 
 export default playerRouter

@@ -1,6 +1,7 @@
 import { Router } from "express";
 import handle from "../util/handle.ts";
 import { cache, getCached, tryCache } from "../util/cache.ts";
+import { fetchPokeAPIDTO } from "../../poketypes.ts";
 import env from "../util/env.ts";
 import fs from 'fs'
 
@@ -59,16 +60,8 @@ pokeAPI.get("/pokemon/multiple/:ids", handle(async (req) => {
     const pokemons: any[] = []
 
     for (const id of ids) {
-        const res = await fetch(env.THIS_ROOT + `/pokeapi/pokemon/${id}`)
-        console.log(id)
-        if (!res.ok) {
-            throw {
-                status: 404,
-                message: `Pokemon "${id}" not found.`
-            }
-        }
-        const data = await res.json()
-        pokemons.push(data.data)
+        const p = await fetchPokeAPIDTO(id)
+        pokemons.push(p)
     }
 
     return {

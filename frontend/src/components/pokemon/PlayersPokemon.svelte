@@ -2,12 +2,20 @@
     import { player } from "../../lib/state/player.svelte.js";
     import PokemonImage from "./PokemonImage.svelte";
     import PokemonMeter from "./PokemonMeter.svelte";
+    import { setView } from "../../lib/state/view.svelte.js";
+
+    if (!player.data || !player.data.pokemon.length) {
+        setView({
+            screen: 'pickRegion',
+            controls: 'none'
+        })
+    }
 </script>
 
 {#if !player.data}
-    ...
+    ... no data
 {:else if player.data.pokemon.length === 0}
-    ...
+    ... no pokemon
 {:else}
     <div class="players-pokemon">
         {#each player.data.pokemon as p}

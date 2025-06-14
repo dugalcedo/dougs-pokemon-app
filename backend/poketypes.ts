@@ -26,6 +26,7 @@ export type Move = {
     power: null | number
     accuracy: number
     effects: Effect[]
+    type: string
 }
 
 export interface UniquePokemon extends PokeAPIDTO {
@@ -74,6 +75,7 @@ export async function fetchMove(name: string): Promise<Move> {
         name: m.name,
         power: m.power,
         accuracy: m.accuracy,
-        effects
+        effects,
+        type: m.type.name
     }
 }

@@ -41,7 +41,8 @@
             onGoodRes(res, data) {
                 console.log("Good res:", data)
                 logIn(data.data.token, data.data.player)
-                setView({ screen: 'dashboard', controls: 'dashboard' })
+                window.location.reload()
+                // setView({ screen: 'dashboard', controls: 'dashboard' })
             },
         }
     })
