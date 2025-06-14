@@ -11,6 +11,7 @@ The app is missing several features one might expect based on the presentation, 
 ## Tech Stack
 
 Backend: Typescript, Express, SQLite, Sequelize
+
 Frontend: Typescript, Svelte
 
 ## Installation
